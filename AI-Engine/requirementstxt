@@ -1,0 +1,16 @@
+# Traitement de données
+pandas
+numpy
+
+# Intelligence Artificielle (RAG)
+langchain
+sentence-transformers
+chromadb
+
+# API et Serveur
+fastapi
+uvicorn
+python-dotenv
+
+# Base de données
+mysql-connector-python
