@@ -1,4 +1,4 @@
-# Conception d’un Assistant IA de Veille Réglementaire 🤖
+# Conception d’un Assistant IA de Veille Réglementaire 
 
 ## 📁 Structure du Projet
 * `/ia-engine` : Scripts Python, FastAPI, et Vector DB (ChromaDB).
@@ -6,7 +6,7 @@
 * `/data` : Fichiers CSV de test et échantillons de lois.
 * `/docs` : Plan de gestion de projet et structure de données.
 
-## 🛠️ Installation (Quick Start)
+## Installation (Quick Start)
 1. **Partie IA :**
    ```bash
    cd ia-engine
