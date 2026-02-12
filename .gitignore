@@ -1,0 +1,4 @@
+.venv/
+preventis_db/
+__pycache__/
+*.pyc

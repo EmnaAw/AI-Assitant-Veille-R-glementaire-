@@ -1,0 +1,2772 @@
+Application:
+SÉCURITÉ
+
+Theme:
+Prévention des risques industriels et technologiques
+
+Numero:
+294
+
+Date:
+1966-04-30
+
+Titre:
+Classification des établissements dangereux, insalubres ou incommodes
+
+Resume:
+- Article n° 294 : Les établissements sont classés en trois catégories, suivant les dangers ou la gravité des inconvénients inhérents à leur exploitation. La première catégorie comprend les établissements qui doivent être éloignés des centres urbains et des habitations particulières. La deuxième catégorie comprend ceux dont l'éloignement des habitations n'est pas rigoureusement nécessaire, mais dont l'exploitation ne peut-être autorisée qu'à la condition que des mesures soient prises pour prévenir les dangers ou les incommodités visés à l'article 293. Dans la troisième catégorie sont placés les établissements qui ne présentent pas d'inconvénients graves ni pour la santé publique ni pour le voisinage, sont seulement soumis, sous la surveillance administrative, à des prescriptions générales édictées, dans l'intérêt du voisinage, ou de la santé publique.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Prévention des risques industriels et technologiques
+
+Numero:
+293-295
+
+Date:
+N/A
+
+Titre:
+Classification des établissements dangereux insalubres ou incommodes 
+
+Resume:
+- Article 293 : Les manufactures, ateliers, usines, magasins, chantiers et d'une manière générale,tous les établissements qui présentent des causes de danger ou des inconvénients soit pour la sécurité, la salubrité ou la commodité du voisinage, soit pour la sécurité. la salubrité ou la santé du personnel qui est occupé, soit pour la santé publique, soit encore pour l'agriculture, sont soumis à la surveillance de l'autorité administrative dans les conditions fixées par le présent chapitre. - Article 294 : Ces établissements sont classés en trois catégories, suivant les dangers ou la gravité des inconvénients inhérents à leur exploitation. - La première catégorie comprend les établissements qui doivent être éloignés des centres urbains et des habitations particulières. - La deuxième catégorie comprend ceux dont l'éloignement des habitations n'est pas rigoureusement nécessaire. mais dont l'exploitation ne peut être autorisée qu'à la condition que des mesures soient prises pour prévenir les dangers ou les incommodités visés à l'article 293. Dans la troisième catégorie, sont placés les établissements qui, ne présentant pas d'inconvénient grave, ni pour la santé publique, ni pour le voisinage, sont seulement soumis, sous la surveillance administrative, à des prescriptions générales édictées, dans l'intérêt du voisinage, ou de la santé publique. - Article 295 : La nomenclature des établissements dangereux, insalubres ou incommodes détermine, suivant les activités auxquelles s'applique le présent chapitre, le classement de ces dernières dans les différentes catégories prévues à - Article 294 : Cette nomenclature est établie par arrêté du secrétaire d'Etat au Plan et à l'Economie nationale, après avis d'un comité spécial des établissements dangereux, insalubres ou incommodes, constitué par décret.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Prévention des risques industriels et technologiques
+
+Numero:
+296-310
+
+Date:
+N/A
+
+Titre:
+Dispositions générales relatives aux établissements dangereux, insalubres ou incommodes. 
+
+Resume:
+Les présents articles; de l'article 296 à l'article 310 englobent toutes les dispositions générales relatives aux établissements dangereux, insalubres ou incommodes.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+161
+
+Date:
+2018-09-21
+
+Titre:
+Membres de l’équipe de sécurité
+
+Resume:
+Le nombre des membres de l’équipe de sécurité doit être défini de façon à respecter les conditions suivantes : La présence de 04 membres au moins dont un chef d'équipe et en plus un responsable de sécurité pendant les heures de travail pour les établissements de 1 ère catégorie et de la 2ème catégorie La présence d'une personne jouant lui-même le responsable de sécurité pour les établissements de la 3ème catégorie. Toute fois l’équipe de sécurité doit etre renforcée par une équipe de seconde intervention pour les établissements classées de la 1ère et 2ème catégorie. Le nombre de l’équipe de seconde intervention ne doit pas etre inférieur à 10% de l’effectif total du personnel. L’équipe de seconde intervention composée des travailleurs ayant reçu une formation dans le domaine d’extinction et de secourisme. * L’exploitant de l’entreprise est libre dans le choix de l’organisme de formation et des cycles de formation pour l’équipe de seconde intervention
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+26
+
+Date:
+2018-09-21
+
+Titre:
+Implantation 
+
+Resume:
+- Tous les batiments, les loceuax, les annexes, les installations et les équipements d'un établissemet classé doivent etre implantés et maitenus à une distance d'au moins 04 mètres des limites de priorité. - Une dérogation à la distance suscitée peut etre accordée par les services de prévention de la protection civile à la demande de l'exploitant, notamment pour les établissements existants, et ce conformèment à l'article 20 de ce réglement .
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+29
+
+Date:
+2018-09-21
+
+Titre:
+Clôture 
+
+Resume:
+- Sauf exception argumentée et motivée par des raisons notamment de sécurité et/ou liées à la nature t aux spécificités de l'activité et du site d'implantation, tous les établissements classés doivent être adéquatement clôturées et efficacement surveillés de toutes intrusions de personnes non autorisées. La hauteur de la clôture ne doit pas être inférieure à 02 mètres.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+118
+
+Date:
+2018-10-21
+
+Titre:
+Vérification des Appareils mobiles 
+
+Resume:
+Appareils Mobiles : Pour permettre aux travailleurs d'intervenir sur un début d'incendie tous les établissments classés doivent etre dotés de moyens d'extinction mobiles tels que : * Extincteurs portatifs * Extincteurs sur roues Les extincteurs suscitès doivent avoir un marquage clair comportant au moins : * L'année de fabrication de l'appareil * La date de la dernière vérification * L'identification de l'agent extincteur de sa masse ou son volume * La ou les classes de feu ( A B C D ) qu'ils permettent d'éteindre, précédé de leur capacité d'extinction en chiffre ; * Des pictogrammes indiquant les modalités de sa mise en oeuvre * Les dangers et les restrictios éventuels d'utilisation * La tempèrature limite et, le cas échéant, une mise en garde contrel le gel. * La mention de recharge après chaque usage Les extincteurs portatifs doivent etre judicieusement répartis et appropriiés aux risques. Ils doivent etre accrochés à un élément fixe, avec une signalisation durable, sans placer la poignée de portage à plus de 1,20 m du sol.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+163
+
+Date:
+2018-09-21
+
+Titre:
+Plan d'Opération Interne 
+
+Resume:
+Les exploitants des bâtiments abritant des établissements dangereux, insalubres ou incommodes, sont tenus d'établir un Plan d'opération interne : POI nommé aussi Plan d'intervention interne PII afférent aux dits bâtiments
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+169
+
+Date:
+2019-09-21
+
+Titre:
+Documents réglementaires 
+
+Resume:
+Documents réglementaires - Une copie de l’Arrêté d'autorisation et les plans y annexés - Une attestation de prévention valide - Un POI - Un registre de sécurité bien entretenu et mis à jour - Tous les documents prouvant la mise en place d'une équipe de sécurité - Les FDS de toutes les matières dangereuses pouvant être présentées sur l'établissement - Les attestations de contrôles périodiques - Les attestations de contrôle réglementaires - Les certificats d'épreuve hydraulique officielle en Tunisie de tous les appareils à pression de GAZ et de vapeur. - Une copie validée de l'étude de danger par les services de protection civile, mise à jour pour les établissements e la 1re catégorie - Le résumé non technique de l'étude de danger - Une copie du contrat d’assurance risque incendie de l'établissement
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+13
+
+Date:
+2018-09-21
+
+Titre:
+Mise à jour de l'étude de danger
+
+Resume:
+Tout transformation dans l'état des lieux, dans la nature de l'outillage, dans les procédés de travail et d’une façon générale toute transformation entrainant une modification notable des dispositions et des aménagements intérieures doit faire l'objet d'une mise à jour de l'étude de danger de l'établissement.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+14
+
+Date:
+2018-09-21
+
+Titre:
+Locaux recevant du public
+
+Resume:
+Locaux recevant du public L’établissement classé peut abriter des locaux aménagés et exploités en tant que locaux recevant le public ERP( administration, showroom, espace de vente) sous réserve du respect des exigences d’exploitation des ERP ( classement en types et catégorie)
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+15
+
+Date:
+2018-11-21
+
+Titre:
+Bâtiments désaffectés et équipements abandonnés 
+
+Resume:
+Bâtiments désaffectés et équipements abandonnés : Dans un établissement classé, les bâtiments, les locaux et les infrastructures abandonnés ou désaffectés doivent être complètement débarrassé de tous stockages et de tous équipements et doivent être démolis ou démontés.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+18-19
+
+Date:
+2019-09-21
+
+Titre:
+Essais aux laboratoires et conformité aux normes
+
+Resume:
+Essais aux laboratoires et conformité aux normes Article 18 et 19 : Lorsque, dans le réglement de sécurité, il est exigé pour des appareils, des équipements ou des installations la conformité aux normes les concernant, les appareils, les équipements ou les installations concernés doivent etre conformes aux normes tunisiennes en viguyeur, et le cas écheant ils doivent etre conformes aux normes harmonisées ou aux normesétrangères recinnes équivalentes
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+23-24
+
+Date:
+2018-09-21
+
+Titre:
+Accessibilité
+
+Resume:
+Accessibilité : - Obligation d’avoir dans l’entreprise au moins un accès pour l’intervention des engins des services de secours et de lutte contre l'incendie. - Les véhicules stationnés dans l’entreprise ne doivent pas gêné l’accessibilité des engins de la protection civile. - En aucun cas l'accessibilité à un batiment ne doit se faire à travers un autre batiment y compris ceux apartement au meme établissement.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+25
+
+Date:
+2018-09-21
+
+Titre:
+Circulation intérieure 
+
+Resume:
+Circulation intérieure : L'exploitant doit fixer les régles et les conditions de circulation applicables à l'intérier de son établissement. Ces régles devront etre portées à la connaissance des intéressés par des moyens appropriés ( Panneaux de signalisation, feux de signalisation, Marquages au sol , consignes écrites et affichées...) Obligation d’avoir un plan de circulation justifié par traçage, panneau de signalisation marquage au sol , consignes écrites et affichées…) Il faut mettre en place les mesures appropriées doivent etre prises pour éviter que les véhicules ou engins quelconques puissent heurter ou endommage des installations des réseux, des réservoires ou leurs annexes.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+28
+
+Date:
+2019-09-21
+
+Titre:
+Stockage des matières dangereuses
+
+Resume:
+Stockage des matières dangereuse : interdiction de stocker de la matière dangereuse en sous-sol et/ou au-dessous et dessus des ERP et dans les locaux ou la présence des travailleurs est supérieure à 20 personnes.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+281-282
+
+Date:
+2018-09-21
+
+Titre:
+Moyens de lutte contre l'incendie 
+
+Resume:
+Les entreprises doivent etre dotés des moyens de lutte cntre l'incenide appropriés aux risques et conformes aux normes en vigueur : - D'un ou plusieurs appareils d'incendie d'un diamètre Nominal DN 100 (prises d'eau, poteaux d'incendie...) d'un réseau public ou privé, doivent etre implantés de telle sorte que les accés de l'extérieur à chaqu cellule soient à moins de 100mètres d'ubn appareil d'incendieet que ceux-ci doivent etre répartis judicieusement et distants entre eux de 150 mètres maximum, les distances étant mesurées les voies praticables aux engins de secours. - Des extincteurs à eau pulvérisée
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+158
+
+Date:
+2018-09-21
+
+Titre:
+Attestation de prévention
+
+Resume:
+- Il est interditt des exploitants des batiments abritant des établissements classés, de les exploiter partiellement ou tatalement avant ou sans l'obtentin auprès des services de a protection civile d'une attestation de prévention, attestant que toutes les règles et mesures de sécurité et de prévention des risques d'incendie, d'explosion et de panique on été appliquées au batiment.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+76
+
+Date:
+2018-09-21
+
+Titre:
+Eclairage de sécurité 
+
+Resume:
+L'éclairage de sécurité est un éclairage alimenté par une source de sécurité en cas de disparition de l'éclairage normal. Il esr assuré par deu types d'éclairage qui sont les suivant : - L'éclairage d'évacuation ou de balisage - L'éclairage anti-panique ou d'ambiance
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+81
+
+Date:
+2018-09-21
+
+Titre:
+Locaux et dégagements concernés par l'éclairage de sécurité 
+
+Resume:
+L'éclairage anti-panique doit etre mis en place dans tous les locaux ou l'effectif du personnel atteint 50 personnes avec un taux d'occupation de plis d'une personne par 10 mètres carrés de la surface. L'éclairage d'évacuation doit être mis en place : - Sur les portes des loceaux techniques et des locaux à risque, l'indication "Sortie de secours" en écriture blanche sur un fond vert est obligatoire - Sur les portes de tous les locaux ou l'effectif du personnel atteint 20 personnes, l'indication "Sortie de secours" en écriture blance sur un fond vert est obligatoire; - Sur les portes de tous les locaux dont l'une des demissions est supèrieure ou égale à 30 mètres, l'indication " Sortie de secours " on écriture blanche sur un fond vert est obligatoire; - Sur les portes de tous les locaux ayant une surface supérieure ou égale à 300 mètres carrés en rez-de-chaussée ou en étage et 100 mètres carrés en sous-sol, l'indication "Sortie de secours" on écriture blanche sur un fond vert est obligatoire; - Sur les portes d'accès aux ascaliers, l'indication " Sortie de secours " on écriture blanche sur un fond vert est obligatoire; - sur les portes donnant sur l'extérieur, l'indication " Sortie de secours " on écriture blanche sur un fond vert est obligatoire; - Dans les circulations horizantales tous les 15 mètres de long, une " Flèche " en couleur blanche sur un fond vert indiquant le sens d l'évacuation est obligatoire - Dans les circulations horizontales au niveau des intersections (Changement de directon), une flèche en couleur blanche sur un fond vert indiquant le sens de l'évacuation est obligatoire. -Les locaux de travail et les dépots de plus de 1000 m2 doivent etre équipés d'un éclairage d'évacuation le long des circulation ( des allées ) aménagées pour la circulation des personnes ou des matières identifiées par un tracage au sl, la distanc entre un foyer lumineux et le suivant ne doit pas dépasser les 15 mètres.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+83
+
+Date:
+2018-09-21
+
+Titre:
+Electricité statique
+
+Resume:
+Tous les installations de l'établissement doivent etre protégées convenablement contre l'électricité statique et toutes les mesures nécessaires doivent etre prises pour limiter l'apparition des charges életriques et assurer sa décharge en toute sécurité.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+87
+
+Date:
+2018-09-21
+
+Titre:
+Obligation de désenfumage 
+
+Resume:
+Les locaux de plus de 300 mètres carrés de surface situés en rez-de-chaussée ou en étage, les locaux aveugles de plus de 100 mètres carrés de surface et ceux situés en sous-sol ainsi que tous les escaliers doivent comporter un dispositif de désenfumage naturel ou mécanique. Les dérogations : Des dérogations aux règles mentionnées ci dessus peuvent Être accordées par les services de prévention de la protection civile sous réserve de la présentation dans une notice de sécurité ou dans l'étude de danger des justificatifs et des arguments nécessaires. Les justificatifs et les arguments doivent prendre en considérations la nature et les spécificités des activités concernées. Toutefois le désenfumage n'est pas exigé en cas d'activité ou de technologie incomppatible ou lorsque des mesures de confinement sont nécessaires. Parmi les locaux non concernés par le désenfumage on note notamment : - Les chambres froides ( Température inférieur ou égale à 10°C); - Les dépots de produit 100% incombustible; - Les batiments d'élevage (Volaille, Lapin, mouton,....) ; - L'industrie pharmaceutique (Chaines de production ) - Les combes non accessiles et non exploitables
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+88
+
+Date:
+2019-01-21
+
+Titre:
+Désenfumage Naturel 
+
+Resume:
+- Le désenfumage par tirage naturel doit etre réalisé par des évacuations de fumée et des amenées d'air naturelles communiquant avec l'extérieur soit directement, soit au moyens de conduits. Les évacuations de fumée et des amenèes d'air natrellles doivent etre disposées de manière à assurer un balayage satisfaisant du volume concerné. La surface totale des sections d'évacuation des fumées (Surface géométrique) doit etre au moins égale au 1/100 de la superficie du local desservi avec un minimuim d'un mètre carré. Il en est de meme pour celles des amennées d'air neuf. Sauf indication contraire (Dispositions particulières) si la surface du local est inférieure à 1000 m2 le pourcentage ci-dessus est réduit au 1/200.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+89
+
+Date:
+2018-12-21
+
+Titre:
+Désenfumage mécanique
+
+Resume:
+- Le désenfumage par tirage mécanique est assuré par des extractions mécaniques de fumée et des amenées d'air naturelles ou mécaniques disposées de manière à assurer un balayage du volume concernée. - Le débit d'extraction doit etre calculé sur la base d'un métre cube par seconde par 100 mètres carrés de la surface du local à désenfumer.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+98
+
+Date:
+2018-09-21
+
+Titre:
+Compatibilité entre désenfumage naturel et désenfumage mécanique
+
+Resume:
+Il est possible d'utiliser, au sein d'un meme établissement, un système de désenfumage naturel et un système de désenfumage mécanique dans des zones de désenfumage différents. Le désenfumage mécanique ne doit jamais etre mis en route si la zone de désenfumage sinistrée n'est pas désenfumée par ce système.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+106-110
+
+Date:
+2022-02-11
+
+Titre:
+Robinets d'Incendie armés 
+
+Resume:
+Les RIA : Des installations fixes de premiers secours contre l'incendie. La fixation des diamètres des robinets d'incendie armés est en fonction du risque d'incendie ( activité, nature des produits, mode de stockage,...) Les RIA doivent etre conformes aux normes en vigueur les concernant, comprenant au minimum ; - Un dévidoir tournant et orientable à alimentation axiale - Un robinet d'arrét de l'alimentation en eau du dévidoir - Un robinet diffuseur à 03 positions - Un tuyau semi rigid"e de longueur entre 25 et 30 mètres - Une clé tricoise avec crochet - Une plaque de signalisation et un mode d'emploi
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+129
+
+Date:
+2018-09-21
+
+Titre:
+Les établissements concernés par l'alarme
+
+Resume:
+Les établissements classés dans lesquels peuvent se trouver occupés ou réunis habituellement plus de cinquante personnes, ainsi que ceux, quelle que soient leurs importances leur catégorie, ou sont manipulées et/ou mises en oeuvre des matières explosives, inflammables et/ou toxiques doivent être équipés d'un système d'alarme.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+166
+
+Date:
+2018-09-21
+
+Titre:
+Contrôle, Vérifications périodiques et maintenance 
+
+Resume:
+Article 166 : L'exploitant doit assurer le contrôle et les vérifications périodiques et réglementaires, des moyens d'alertes, de toutes les installations et des divers équipements de sécurité et du matériel de lutte contre l'incendie de l'établissement par un organisme de contrôle agréé. Les installations de transport, les appareils et les réservoirs pouvant contenir des produits dangereux doivent faire l'objet de contrôle et de vérifications périodiques. Il faut en particulier s'assurer de leur bon état général et notamment du bon fonctionnement des dispositifs de sécurité. Les appareils sous pression et leurs accessoires de sécurité, les installations électriques, les installations de mise à la terre, les systèmes de protection de l'électricité statique, les appareils de levage et les installations de gaz combustibles doivent être contrôlés et vérifiés périodiquement par un organisme de contrôle agré. Article 167 : Toutes les opérations de controles et vérifications périodiques et réglementaires objet de l'article 166, doivent etre confiées à un organisme de controle colmpétent enla matière et agréé par les autorités compétentes, et ce conformément à la réglementation et aux normes en vigueur les régissant. Les opérations de vérifications doivent être inscrites dans le registre de sécurité de l'établissement. Article 168 : Les installations, les moyens, les équipements et d'une facon générale tous les équipements de l'établissement classé doivent être périodiquement entretenus et maintenus en bon état de marche
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+155
+
+Date:
+2019-01-21
+
+Titre:
+Exploitation, Responsabilité & sensibilisation aux Risques
+
+Resume:
+L'exploitation d’un établissement classé doit être placée sous la responsabilité de l'exploitant ou d'une personne déléguée et nommément désignée par ce dernier. Le responsable de l'exploitation d’un établissement classé doit être spécialement formé aux dangers que présentent les différentes installations, annexes, utilités et produits (dont les risques d’incendie d’explosion et de panique) et aux questions de sécurité relatives à ces dangers. Le personnel de chaque établissement classé(*) doit recevoir en plus des formations exigées par la règlementation en vigueur, une formation et ou une sensibilisation spécifique aux risques particuliers liés à l'activité de l'établissement. L'ensemble du personnel doit être formé à l'application des consignes de sécurité et des procédures d'exploitation définies par l’étude de dangers ainsi qu'aux mesures de premières interventions en cas d'incident ou d’accident. Le personnel intérimaire ou saisonnier ou sous-traitants manœuvrant temporairement doit aussi recevoir une sensibilisation adaptée aux risques. (L’étude de dangers constitue le moyen le plus adéquat pour déterminer les établissements qui doivent satisfaire aux exigences du présent article).
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Règlement de sécurité des établissements dangereux, insalubres ou incommodes
+
+Numero:
+191
+
+Date:
+2018-09-21
+
+Titre:
+Ventilation
+
+Resume:
+Les locaux où sont manipulés ou employés des produits inflammables doivent être convenablement ventilés pour éviter tout risque d'atmosphère inflammable ou explosible. Dans le cas d’une ventilation mécanique, le débouché à l'atmosphère de la gaine de ventilation (Soufflage vers l’extérieur) doit être placé aussi loin que possible des bâtiments tiers et notamment des habitations voisines et en tenant compte notamment de la direction du vent dominant. Les prises d'air destinées à la ventilation ou éventuellement à la climatisation de locaux doivent être éloignées d'une distance minimale de 10 mètres de tout stockage de liquides inflammables.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Conditions de travail
+
+Numero:
+61
+
+Date:
+1996-07-15
+
+Titre:
+Code de Travail
+
+Resume:
+- Article 61 : L’interdiction d'employer les enfants moins de 18 ans qu'après un examen médical approfondi justifiant leur aptitude d'effectuer le travail dont ils seront chargés. * L'examen médical d'aptitude à l'emploi est effectué gratuitement par le médecin du travail et doit être mentionné au registre visé à l'article 59 du présent code.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Conditions de travail
+
+Numero:
+154
+
+Date:
+N/A
+
+Titre:
+Caractère de la forme juridique du GMT
+
+Resume:
+Les groupements de médecine du travail sont des personnes morales d'intérêt public dotées de la personnalité civile et de l'autonomie financière et régies par les dispositions du présent titre. Ces groupements comprennent les entreprises visées à l'article 153 du présent code et entrant dans leur domaine d'activité.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Conditions de travail
+
+Numero:
+156
+
+Date:
+N/A
+
+Titre:
+Sources de dépenses du GMT
+
+Resume:
+- Article 156 : Toutes les dépenses afférentes au fonctionnement des services médicaux, y compris les honoraires du médecin et les salaires des infirmiers, sont à la charge des entreprises. Au cas de service commun, ces dépenses sont réparties entre les entreprises proportionnellement au nombre des salariés et en tenant compte, éventuellement, de l'importance du temps de service minimum exigé pour chaque établissement.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Conditions de travail
+
+Numero:
+2010-9
+
+Date:
+2010-02-15
+
+Titre:
+Portant  approbation de l’adhésion à la convention - cadre pour la lutte antitabac
+
+Resume:
+Est annexée à la présente loi, l'approbation de l’adhésion de la République Tunisienne à la convention - cadre de l'organisation mondiale de la santé pour la lutte antitabac adoptée à Genève, Le 21 mai 2003 et signée en date du 22 août 2003.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Conditions de travail
+
+Numero:
+63
+
+Date:
+1996-07-15
+
+Titre:
+Code de travail
+
+Resume:
+Pour les travaux qui représentent des risques pour la santé, l'examen médical d'aptitude à l'emploi et ses renouvellements successifs ont lieu jusqu'à 21 ans au moins.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Conditions de travail
+
+Numero:
+333-334
+
+Date:
+N/A
+
+Titre:
+ Les vêtements de travail
+
+Resume:
+- Article 333 : Dans toutes les activités où les salariés sont soumis à la législation du travail. Les employeurs doivent fournir à chaque membre de leur personnel permanent, le 1er mai de chaque année, deux complets de travail, deux chemises, une paire de chaussures et un couvre chef du modèle couramment admis dans la profession. Les frais occasionnés par ces fournitures sont supportés, moitié par l'employeur, moitié par le salarié, au moyen de retenues sur son salaire. échelonnées sur quatre mois au moins. Il n'est en rien dérogé aux dispositions plus favorables aux salariés résultant, soit des règlements, soit de la convention collective ou des usages. - Article 334 : Toute infraction aux dispositions de l'article 333 est punie conformément aux articles 234, 236 et 237 du présent Code. Le tribunal fixe un délai au condamné pour délivrer les vêtements de travail et de protection,aux salariés qui ont droit.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Conditions de travail
+
+Numero:
+61-63
+
+Date:
+1996-07-15
+
+Titre:
+Le travail des enfants
+
+Resume:
+- Article 61 : Les enfants de moins de 18 ans ne peuvent être employés dans toutes les activités qu'après un examen médical approfondi justifiant leur aptitude d'effectuer le travail dont ils seront chargés. Cet examen comporte le cas échéant les examens cliniques, radioscopiques et le laboratoire. Toutefois, certains travaux non industriels peuvent être exclus de l'application des dispositions du paragraphe précédent et ce par décret pris après consultation des organisations professionnelles d'employeurs et de travailleurs concernées. L'examen médical d'aptitude à l'emploi est effectué gratuitement par le médecin du travail et doit être mentionné au registre visé à l'article 59 du présent code. Le certificat médical d'aptitude à l'emploi peut prévoir des conditions déterminées d'emploi Il peut-être également délivré pour effectuer un travail déterminé ou un ensemble de travaux ou pour une durée déterminée. Le travailleur est tenu de conserver le certificat médical d'aptitude à l'emploi et de le tenir à la disposition de l'inspection du travail et de l'inspection médicale du travail. Article 62 : L'aptitude des enfants à l'emploi qu'ils occupent doit faire l'objet d'un contrôle médical poursuivi jusqu'à l'âge de 18 ans. L'enfant ne peut-être maintenu dans son emploi que moyennant renouvellement de l'examen médical au cours de chaque semestre. L'inspection du travail et l'inspection médicale du travail peuvent exiger des renouvellements spéciaux de l'examen médical. Article 63 : Pour les travaux qui représentent des risques pour la santé, l'examen médical d'aptitude à l'emploi et ses renouvellements successifs ont lieu jusqu'à 21 ans au moins. Un arrêté du Ministre chargé des Affaires Sociales, pris après avis des Ministres compétents et des organisations professionnelles des employeurs et des travailleurs concernées, détermine les travaux pour lesquels l'examen médical d'aptitude à l'emploi est exigé jusqu'à 21 ans.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Conditions de travail
+
+Numero:
+29
+
+Date:
+2019-10-23
+
+Titre:
+Responsabilité SST du sous entrepreneur
+
+Resume:
+- Article 29 : Le chef d'entreprise est responsable avec le sous- entrepreneur de main d'oeuvre de l'observation de toutes les prescriptions de la législation concernant les conditions du travail, l'hygiène et la sécurité, la durée du travail, le travail de nuit, le travail des femmes et des enfants, le repos hebdomadaire et les jours fériés, à l'occasion de l'emploi, dans ses ateliers, magasins ou chantiers, de salariés du sous-entrepreneur, comme s'il s'agissait de ses propres ouvriers et employés et sous les mêmes sanctions.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Médecine de travail
+
+Numero:
+155
+
+Date:
+N/A
+
+Titre:
+Conditions d'embauche de médecin de travail par l'employeur
+
+Resume:
+- Article 155 : Les médecins des services de médecine du travail sont recrutés, sauf empêchement, parmi les médecins spécialistes en médecine du travail. Le recrutement est soumis à l'approbation de l'inspection médicale du travail territorialement compétente. Tout licenciement d'un médecin du travail envisagé par l'employeur doit être soumis par celui-ci à l'inspection médicale du travail territorialement compétente, après avis de la commission consultative d'entreprise ou du délégué du personnel. Le médecin inspecteur du travail émet un avis motivé dans un délai n'excédant pas 10 jours à compter de la date de sa saisine. Est considéré abusif, le licenciement intervenu sans respect de la procédure prévue au deuxième paragraphe du présent article. Est également considéré abusif, le licenciement intervenu contrairement à l'avis du médecin inspecteur du travail, sauf s'il est établi auprès des tribunaux compétents l'existence d'une cause réelle et sérieuse justifiant ce licenciement.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Médecine de travail
+
+Numero:
+154-4
+
+Date:
+N/A
+
+Titre:
+Financement GMT
+
+Resume:
+Les ressources du groupement de médecine du travail sont constituées des contributions des entreprises, des recettes provenant de son activité, des revenus de ses biens, des dons et legs et de toutes autres ressources qui peuvent lui être accordées en vertu des lois et règlements en vigueur. Les contributions des entreprises sont fixées par décret et sont versées directement aux groupements. Les économies pouvant être réalisées par les groupements de médecine du travail sont affectées au développement de leurs activités, il ne peut résulter de l'activité de ces groupements la distribution de bénéfices.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Médecine de travail
+
+Numero:
+Article 31
+
+Date:
+2000-09-12
+
+Titre:
+Agent paramédical
+
+Resume:
+Dans les entreprises occupant plus de 500 travailleurs, l'employeur est tenu d'affecter un (01) agent paramédical a plein temps au service de médecine du travail.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+163-164
+
+Date:
+N/A
+
+Titre:
+Le délégué titulaire du personnel
+
+Resume:
+- Article 163 : Il est élu un délégué titulaire du personnel et un délégué suppléant dans les entreprises employant un nombre de travailleurs permanents égal ou supérieur à vingt et inférieur à quarante. - Article 164 : Le délégué du personnel exerce les mêmes attributions que celles confiées aux représentants du personnel dans la commission consultative d'entreprise. Les réunions entre le chef d'entreprise ou, en cas d'empêchement, son représentant dûment mandaté et le délégué du personnel tiennent lieu de réunions de la commission consultative d'entreprise. Les responsables de la santé et de la sécurité au travail relevant de l'entreprise ou la supervisant s'ils existent, doivent être associés au moment de l'examen des questions de santé et de sécurité au travail.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 6-2 (nouveau)
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre
+
+Resume:
+Exigence : Tout contrat de travail est à durée indéterminée (CDI) par défaut.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 6-3 (nouveau)
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre
+
+Resume:
+Exigences : Période d’essai : max. 6 mois, renouvelable une seule fois. Rupture possible pendant l’essai avec préavis de 15 jours par écrit. En cas de rupture durant l’essai : toute nouvelle embauche entre les deux parties = CDI sans période d’essai.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 6-4 (nouveau)
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre
+
+Resume:
+Exigences : CDD interdit, sauf dans 3 cas : Surcroît exceptionnel d'activité Remplacement temporaire Travaux saisonniers ou exceptionnels CDD = écrit obligatoire + mention de la durée et du motif légal. Si non conforme ? Requalifié automatiquement en CDI. Pas de période d’essai possible dans un CDD. Les CDD bénéficient des mêmes droits que les CDI (rémunération, avantages…). Priorité d'embauche aux salariés en CDD pour les postes permanents.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 17 (nouveau)
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre
+
+Resume:
+Exigence : Si un salarié continue après expiration du CDD ? le contrat devient CDI, avec maintien de l’ancienneté et sans période d’essai.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 94-2 (nouveau)
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre
+
+Resume:
+Exigence : Les contrats à temps partiel peuvent être conclus à durée déterminée ou indéterminée, dans le respect des dispositions du Code du travail.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 28 (nouveau)
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre
+
+Resume:
+Exigence : La sous-traitance de main-d’œuvre est interdite, y compris pour les activités de gardiennage et nettoyage.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 30 (nouveau)
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre
+
+Resume:
+Exigences : Les contrats de prestation de service ou fourniture de travaux sont autorisés si : Activité hors du cœur de métier Prestation spécialisée, technique Les salariés restent sous l’autorité du prestataire Pas d'encadrement par l’entreprise bénéficiaire
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 30 bis
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre(1
+
+Resume:
+Exigence : Il est interdit de signer un contrat de prestation en violation de l’article 30.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 30 ter
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre(1
+
+Resume:
+Exigences : En l’absence de régime propre, les salariés du prestataire bénéficient du régime salarial de l’entreprise bénéficiaire. L’entreprise bénéficiaire est responsable : Des conditions de travail, hygiène, sécurité, durée, travail de nuit, femmes, enfants, handicapés, jours fériés. Le prestataire doit fournir une preuve du paiement des salaires et cotisations CNSS chaque mois.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 30 quater
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre(1
+
+Resume:
+Exigence : Le prestataire doit fournir une garantie financière pour couvrir : Salaires et cotisations CNSS En cas d’insuffisance ? l’entreprise bénéficiaire doit payer à sa place.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 30 quinquies
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre
+
+Resume:
+Exigence : Le salarié, la CNSS ou la CNAM peuvent agir directement contre l’entreprise bénéficiaire pour récupérer les montants dus.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 30 sexies
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre
+
+Resume:
+Exigence : En cas de pluralité d’intervenants (ex. prestataires multiples), ils sont solidairement responsables des obligations légales envers les salariés.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 234 ter
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre
+
+Resume:
+Sanctions complémentaires : Amende de 100 à 300 TND par travailleur en infraction aux articles 6-4 et 30 bis. Plafond global : 10 000 TND maximum.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 6
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre
+
+Resume:
+Exigence : Tous les CDD non conformes sont automatiquement requalifiés en CDI. Rétroactivité pour les contrats en cours ou rompus après le 14 mars 2025. L’ancienneté est conservée si la relation a été régulière (interruption
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 9
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre
+
+Resume:
+Exigence : Rupture de CDD ou sous-traitance entre 6 mars 2024 et entrée en vigueur de la loi ? titularisation si relation ≥ 4 ans. Sinon, indemnité de 2 mois de salaire par année d’ancienneté (prescription 1 an après).
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 7
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre
+
+Resume:
+Exigence : Les périodes d’essai inférieures à 6 mois prévues avant cette loi restent valables.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Article 10
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de  travail et  interdiction de  la sous-traitance de main-d'œuvre
+
+Resume:
+Exigence : Les entreprises prestataires existantes doivent se conformer à la loi dans les 3 mois. Date limite d'applicationet de mise en conformité est le 20 Aout 2025.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Responsabiltés de l'employeur
+
+Numero:
+Rectificatif de l'Article 30 sexies
+
+Date:
+2025-05-21
+
+Titre:
+portant réglementation des contrats de travail et interdiction de la sous-traitance de main-d'œuvre
+
+Resume:
+Rectificatif de la loi n° 2025-9 du 21 mai 2025, portant réglementation des contrats de travail et interdiction de la sous-traitance de main-d'oeuvre publiée au Journal officiel de la République tunisienne n°61 du 23 mai 2025. Rectification au niveau de l'article l'article 30 sexies : Nouveau : En cas de pluralité des intervenants dans une relation de travail, ils sont considérés comme solidairement responsables entre eux envers l’employé pour l'exécution des obligations découlant de l'application de la législation du travail. Au lieu de : " En cas de pluralité des intervenants dans une relation de travail, ils sont considérés comme solidairement responsables entre eux envers l’employeur pour l'exécution des obligations découlant de l'application de la législation du travail " (Le reste sans changement)
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Frais des prestations de SST
+
+Numero:
+152
+
+Date:
+1966-04-03
+
+Titre:
+Les prestations de santé et de sécurité au travail 
+
+Resume:
+- Article 152 : Les prestations de santé et de sécurité au travail couvrent toutes les entreprises et activités régies par le présent code. Les frais nécessités par ces prestations sont supportés par l'employeur. La nature des prestations et les conditions de leur octroi sont déterminées par des textes réglementaires ou par les conventions collectives, conformément aux dispositions du présent titre.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Médecine de travail
+
+Numero:
+289-292
+
+Date:
+N/A
+
+Titre:
+Fonction de l'inspecteur médicale du travail
+
+Resume:
+- Article 289 : L 'inspection médicale du travail est assurée par des médecins fonctionnaires relevant du ministère chargé des Affaires sociales et constituant le corps de l'inspection médicale du travail. - Article 290 : Le statut particulier du corps de l'inspection médicale du travail est fixé par décret. - Article 291 : Les médecins inspecteurs du travail sont chargés notamment de : 1) veiller à l'application de la législation relative à la santé et à la Sécurité au travail en coordination avec les inspecteurs du travail. 2) fournir aux employeurs et aux travailleurs les renseignements et conseils techniques sur les moyens les plus efficaces pour l'application de la législation relative à la santé et à la sécurité au travail et informer les autorités compétentes des déficiences ou abus qu'ils ont pu constater dans ce domaine. 3) collecter et exploiter les données statistiques en vue d'améliorer la protection de la santé et de la sécurité des travailleurs. 4) contrôler les services et les groupements de médecine du travail et agréer les locaux qui leur sont réservés. 5) contribuer à la préparation d'un fichier physiopathologique de la main d'oeuvre. 6) statuer sur les litiges concernant les examens médicaux des travailleurs. 7) contrôler les soins fournis aux victimes d'accidents du travail et de maladies professionnelles.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Le service médical
+
+Numero:
+153
+
+Date:
+1966-04-03
+
+Titre:
+Obligation d'adhésion à la GMT
+
+Resume:
+- Dans toute entreprise employant 500 travailleurs au moins, l'employeur est tenu de créer et d'équiper un service de médecine du travail propre à cette entreprise. - Les entreprises employant moins de 500 travailleurs sont tenues soit d'adhérer à un groupement de médecine du travail soit de créer un service autonome de médecine du travail - Certaines activités ou entreprises peuvent, compte tenu de la nature des risques professionnels, être dispensées de l'obligation de créer un service autonome de médecine du travail ou d'adhérer à un groupement de médecine du travail et ce par décrets pris après consultation des organisations professionnelles concernées.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Le responsable sécurité
+
+Numero:
+154-5
+
+Date:
+1966-04-03
+
+Titre:
+Nomination et fonction du responsable sécurité
+
+Resume:
+Le responsable sécurité est chargé notamment : - L'application des dispositions légales, réglementaires et conventionnelles relatives à la sécurité au travail; - Supervision de l'exécution des programmes de sécurité au travail; - Contrôler les lieux de travail pour détecter les sources de danger et les signaler afin de prévenir la survenance des risques et de s'assurer de l'utilisation des moyens de prévention; - Identification des causes d'accidents de travail et propositions visant à les prévenir et à garantir la sécurité des travailleurs dans l'entreprise. - Initiation des travailleurs à l'utilisation des équipements de prévention; - Sensibilisation et diffusion de l'éducation préventive auprès des travailleurs.
+
+
+==================================================
+
+Application:
+SÉCURITÉ
+
+Theme:
+Conditions d'exploitation 
+
+Numero:
+Chapitre n° 09
+
+Date:
+2019-09-21
+
+Titre:
+Les Conditions d'Exploitation 
+
+Resume:
+N/A
+
+
+==================================================
+
+Application:
+Autres
+
+Theme:
+Code Pénal
+
+Numero:
+315
+
+Date:
+N/A
+
+Titre:
+Code Penal
+
+Resume:
+Sont punis de quinze jours d'emprisonnement et de quatre dinars huit cent millimes d'amende: 1. ceux qui ne se conforment pas aux prescriptions des règlements et arrêtés pris par l'autorité compétente, 2. ceux qui, légalement requis, refusent de décliner leur nom et adresse ou énoncent de faux noms ou de fausses adresses, 3. ceux qui, sans commettre l'infraction prévue à l'article 126 du présent code, auront troublé l'exercice de la justice à l'audience ou ailleurs, 4. ceux qui vendent des denrées ou aliments au-dessus des prix fixés par l'autorité, 5. ceux qui refusent, l'entrée de leur domicile, à un agent de l'autorité agissant en exécution de la loi.
+
+
+==================================================
+
+Application:
+Autres
+
+Theme:
+Code Pénal
+
+Numero:
+316
+
+Date:
+N/A
+
+Titre:
+Code Penal
+
+Resume:
+Sont punis de quinze jours d'emprisonnement et de quatre dinars huit cent millimes d'amende : Encourent les peines prévues à l'article 315 du présent code : 1. ceux qui, en élevant, réparant ou démolissant une construction sur la voie publique, ne prennent pas les précautions nécessaires en vue d'éviter des accidents, 2. ceux qui auront, sciemment ou involontairement, fait tomber sur la voie publique des objets susceptibles de blesser les passants ou de souiller leurs vêtements, 3. ceux qui auront, malgré la prohibition de l'autorité, tiré des coups de feu ou usé de feu d'artifice dans des lieux publics ou sur la voie publique, 4. Ceux qui auront confié une arme à feu à une personne inexpérimentée ou ne jouissant pas de son entière responsabilité, 5. Ceux qui, sans nécessité, se seront présentés dans un lieu public porteurs d'une arme chargée, 6. Ceux qui se rendent coupable de bruit ou tapage de nature à troubler la tranquillité des habitants ou y prennent part, 7. Ceux qui auront, dans un marché ou des agglomérations, conduit des chevaux ou véhicules à une allure excessive constituant un danger pour le public, 8. Ceux qui auront laissé, en circulation ou en errance, des aliénés ou des animaux malfaisants ou dangereux, 9. Ceux qui auront excité un chien à attaquer des passants ou ne l'enont pas empêché, 10. - Ceux qui, sollicités d'acheter ou de prendre en gage des objets dont ils ont connaissance de l'origine suspecte, n'en informent pas sans retard l'autorité compétente.
+
+
+==================================================
+
+Application:
+Autres
+
+Theme:
+Code Pénal
+
+Numero:
+320
+
+Date:
+N/A
+
+Titre:
+Code Penal
+
+Resume:
+Sont punis de quinze jours d'emprisonnement et de quatre dinars huit cent millimes d'amende : 1. Ceux qui jettent des corps durs ou immondices sur les voitures, maisons, édifices et propriétés d'autrui ; 2. Ceux qui placent ou abandonnent dans les cours d'eau ou dans les sources dés matériaux ou autres objets pouvant les encombrer.
+
+
+==================================================
+
+Application:
+Autres
+
+Theme:
+Code Pénal
+
+Numero:
+321
+
+Date:
+N/A
+
+Titre:
+Code Penal
+
+Resume:
+Sont punis de quinze jours d'emprisonnement et de quatre dinars huit cent millimes d'amende : 1. Ceux qui, sans permission de l'autorité compétente occupent ou font occuper la voie publique, soit en y déposant des objets, quel qu'en soit la nature, susceptibles de compromettre la sécurité ou la liberté de circulation soit en y creusant des excavations; 2. Ceux qui, dans le cas où l'occupation aurait été permise, n'enlèvent pas les effets déposés dans le délai fixé par l'autorité ou négligent d'éclairer les matériaux ou objets qu'ils ont déposés sur la voie publique ou des excavations qu'ils y ont creusées; 3. Ceux qui auront éteint les lumières destinées à faciliter la circulation sur la voie publique ou à éviter les accidents; 4. Ceux qui laissent leurs animaux endommager les voies publiques, places ornementées, parcs ou trottoirs, sans que cela ne préjuge de l'application des infractions et des peines y afférentes prévues par des lois spéciales.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Sociale	
+
+Numero:
+152-2
+
+Date:
+1966-04-03
+
+Titre:
+Droits et responsabilités SST employeur 
+
+Resume:
+Tout employeur est tenu de prendre les mesures nécessaires et appropriées pour la protection des travailleurs et la prévention des risques professionnels. Il doit notamment : - veiller à la protection de la santé des travailleurs sur les lieux du travail; - garantir des conditions et un milieu de travail adéquats; - protéger les travailleurs des risques inhérents aux machines, au matériel et aux produits utilisés; - fournir les moyens de prévention collective et individuelle adéquats et initier les travailleurs à leur utilisation; - informer et sensibiliser les travailleurs des risques de la profession qu'ils exercent.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Sociale	
+
+Numero:
+2.4
+
+Date:
+N/A
+
+Titre:
+Volonté de faire des heures supplémentaires 
+
+Resume:
+Critères 2.4 : Le personnel doit avoir le droit de quitter les lieux de travail après avoir complété sa journée de travail normale et être libre de terminer leur emploi pourvu qu'il donne un avis raisonnable à l'organisation. Critères 7.3 : Tout travail en temps supplémentaires doit se faire volontairement sauf 7.4 ci-dessous, ne doit pas excéder 12 heures par semaine et ne doit pas être requis sur une base régulière.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Sociale	
+
+Numero:
+139
+
+Date:
+N/A
+
+Titre:
+Paiement du salaire 
+
+Resume:
+- Article 139 : La rémunération des travailleurs de toutes catégories doit être payée, en monnaie ayant cours légal en Tunisie ; sauf dispositions légales ou réglementaires contraires.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Sociale	
+
+Numero:
+263
+
+Date:
+N/A
+
+Titre:
+Emploi du main d’oeuvre étrangère 
+
+Resume:
+- Article 263 : Le travailleur étranger bénéficie des mêmes droits et est soumis aux même obligations résultant des relations du travail et applicables au travailleur tunisien.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Sociale	
+
+Numero:
+161
+
+Date:
+N/A
+
+Titre:
+Comité de santé sécurité au travail
+
+Resume:
+- Article 161 (nouveau) : La commission consultative de l'entreprise examine les questions relatives à la santé et à la sécurité au travail. A cet effet, il est constitué une sous-commission technique dénommée "comité de santé et de sécurité au travail", comprenant : - Le chef d'entreprise ou son représentant, président ; - Deux représentants des travailleurs choisis par les représentants du personnel au sein de la commission consultative d'entreprise et parmi eux, membres ; - Le médecin du travail relevant de l'entreprise ou la supervisant , membre ; - Le responsable de la sécurité relevant de l'entreprise ou la supervisant s'il existe, membre. La mission de ce comité " CSST " consiste notamment à : - Elaborer les projets de règlements et de prescriptions relatifs à la santé et à la sécurité au travail dans l'entreprise; - Assurer les tâches d'information , de sensibilisation et de formation dans le domaine de la santé et de la sécurité au travail ; - Proposer les programmes de prévention des risques professionnels au sein de l'entreprise et assurer le suivi de l'exécution des programmes adoptés; - Effectuer les enquêtes à l'occasion de chaque accident de travail grave ou maladie professionnelle et proposer les mesures nécessaires pour la maîtrise de ses causes.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Travail des enfants 
+
+Numero:
+53
+
+Date:
+2018-12-01
+
+Titre:
+Age minimum 
+
+Resume:
+- Article 53 : Les enfants de moins de 16 ans ne peuvent être employés dans toutes les activités régies par le présent code, sous réserve des dispositions spéciales prévues par ce code. - Article 53-2 : Les dispositions de l'article 53 du présent code ne s'appliquent pas au travail des enfants dans les écoles d'enseignement général, professionnel ou technique et dans les autres établissements de formation. Elles ne s'appliquent pas également au travail exercé dans les entreprises par les personnes âgées de 14 ans au moins lorsque ce travail constitue une partie fondamentale : a) d'un cycle d'étude ou de formation dont la responsabilité incombe principalement à l'école ou à l'établissement de formation; b) d'un programme de formation professionnelle agréé par les autorités publiques compétentes et exécuté en grande partie ou entièrement dans une entreprise; c) d'un programme d'information ou d'orientation visant le choix de la profession ou la nature de la formation.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Travail des enfants 
+
+Numero:
+58
+
+Date:
+2019-09-02
+
+Titre:
+Restriction pour les jeunes travailleurs entre 16-18 par rapport au poste risque
+
+Resume:
+- Article 58 : Ne peut être inférieur à dix huit ans l'âge minimum d'admission dans n'importe quel type de travail susceptible, de par sa nature ou les circonstances dans lesquelles ilest exécuté, d'exposer la santé, la sécurité ou la moralité des enfants au danger. Les types de travaux visés au paragraphe précédent sont déterminés par arrêté du ministre chargé des Affaires Sociales pris après consultation des organisations professionnelles les plus représentatives des employeurs et des travailleurs. Nonobstant les dispositions du premier paragraphe du présent article, l'inspection du travail peut, après avis de l'inspection médicale du travail et consultation des organisations les plusreprésentatives des employeurs et des travailleurs, autoriser l'emploi des enfants dans ces travaux à partir de l'âge de 16 ans, à condition que leur santé, leur sécurité et leur moralité soient pleinement sauvegardées et qu'ils aient reçu une instruction spécifique et adéquate, ou une formation professionnelle dans la branche d'activité concernée.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Travail des enfants 
+
+Numero:
+59
+
+Date:
+N/A
+
+Titre:
+Registre pour les âgés moins de 18 ans  
+
+Resume:
+- Article 59 : Chaque employeur doit tenir un registre indiquant les noms et dates de naissance de toutes les personnes de moins de 18 ans occupées par lui, la nature de leurs travaux, lenombre de leurs heures de travail, les périodes de leur repos et leur certificat d'aptitude au travail qui ne doit pas comprendre des indications médicales. - Ce registre est présenté aux agents de l'inspection du travail et de l'inspection médicale du travail et aux représentants du personnel, sur leur demande.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Travail des enfants 
+
+Numero:
+73
+
+Date:
+N/A
+
+Titre:
+Registre pour les âgés  moins de 18 ans 
+
+Resume:
+- Article 73 : Dans toutes les activités non agricoles, les employeurs doivent tenir un registre indiquant les nom et date de naissance de toutes les personnes de moins de dix-huit ans qu'ils emploient, leurs heures de travail ainsi que toutes autres informations relatives aux conditions d'emploi des enfants. Ce registre est tenu à la disposition de l'inspection du travail.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Travail des enfants 
+
+Numero:
+63
+
+Date:
+N/A
+
+Titre:
+Les heures supplémentaires pour les âgés moins de 18 ans
+
+Resume:
+- Article 63-2 : Les enfants de moins de 18 ans ne peuvent être chargés d'effectuer des heures supplémentaires au-delà de la durée normale du travail à laquelle ils sont soumis.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Travail des enfants 
+
+Numero:
+343-348
+
+Date:
+N/A
+
+Titre:
+Contrat d'apprentissage
+
+Resume:
+- Article 343 : Le contrat d'apprentissage est celui par lequel un chef d'entreprise, pris en qualité de maître, s'oblige à donner ou à faire donner une formation professionnelle méthodique et complète à une autre personne et par lequel celle-ci, appelée apprenti, s'oblige, en retour, à se conformer aux instructions qu'elle recevra et à exécuter les ouvrages qui lui seront confiés en vue de sa formation professionnelle. - Article 344 : Le contrat d'apprentissage doit être constaté par écrit, à peine de nullité. Il doit être rédigé au plus tard dans la quinzaine de sa mise à exécution. Il doit être établi en trois originaux, un pour l'employeur, un pour l'apprenti ou pour son représentant légal, le troisième pour le service compétent du secrétariat d'Etat à la Jeunesse, aux Sports et aux Affaires sociales. L'employeur adresse obligatoirement les trois originaux au service compétent du secrétariat d'Etat à la Jeunesse, aux Sports et aux Affaires sociales qui lui retourne les deux originaux destines aux parties après les avoir visés. Le contrat acquiert date certaine et produit son plein effet juridique par le visa que lui donne le service compétent du secrétariat d'Etat à la Jeunesse, aux Sports et aux Affaires sociales. Le contrat d'apprentissage est exempt de tous droits de timbre et d'enregistrement. - Article 345 : Le contrat d'apprentissage est établi en tenant compte des usages et des coutumes de la profession. Il doit contenir: • 1) les nom, prénom, nationalité, date de naissance, profession, domicile du maître ou raison et siège social de l'entreprise; • 2) les nom, prénom, nationalité, date de naissance et domicile de l'apprenti; • 3) si l'apprenti est mineur, les nom, prénom, nationalité, profession et domicile de ses père et mère, de son tuteur ou de la personne autorisée par les parents, ou à défaut, par le juge compétent en matière de statut personnel de l'apprenti; • 4) dans le cas où le maître ne donne pas lui-même la formation professionnelle, le contrat d'apprentissage doit indiquer dans quelles conditions et par qui cette formation professionnelle doit être donnée; • 5) la durée du contrat; • 6) la désignation exacte de la profession faisant l'objet du contrat; • 7) les conditions de rémunération de l'apprenti, de nourriture. de logement et toutes autres, arrêtées entre les parties; • 8) l'indication, le cas échéant, des cours professionnels ou d'instruction générale que le chef d'établissement s'engage à faire suivre à l'apprenti, soit dans l'établissement, soit en dehors; • 9) l'indication que l'indemnité éventuelle à payer, en cas de rupture du contrat, sera fixée par le conseil de prud'hommes ou, à défaut, par le Juge de droit commun compétent. Le contrat d'apprentissage doit être signé par le maître, par l'apprenti s'il est majeur ou par son représentant légal s'il est mineur. Il doit être daté. Article 346 : Nul ne peut recevoir des apprentis mineurs s'il n'est âgé d'au moins 20 ans. Aucun apprenti âgé de moins de 14 ans ou de plus de 18 ans ne peut entrer en apprentissage s'il n'y est autorisé par le service compétent du secrétariat d'Etat à la Jeunesse, aux Sports et aux Affaires sociales. Un arrêté du secrétaire d'Etat à la Jeunesse, aux Sports et aux Affaires sociales fixe les conditions d'application du paragraphe précédent, notamment en ce qui concerne le contrôle médical des apprentis de moins de 14 ans. - Article 347 : Aucun maître, s'il est célibataire ou en état de veuvage ou divorcé ou séparé de corps, ne peut loger, comme apprenties, des jeunes mineures. - Article 348 : Sont incapables de recevoir les apprentis: • - les individus qui ont subi une condamnation pour crime; • - ceux qui ont été condamnés pour attentat aux moeurs; • - ceux qui ont été condamnés pour abus des besoins, des faiblesses ou des passions d'un mineur, ou abus de l'inexpérience, de la légèreté ou des besoins d'une personne ne disposant pas de ses biens pour la déterminer à souscrire, sans avantages
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Liberté syndicale
+
+Numero:
+242
+
+Date:
+2018-12-06
+
+Titre:
+Les syndicats professionnels 
+
+Resume:
+- Article 242 : Des syndicats ou associations professionnels de personnes exerçant la même profession, des métiers similaires ou des professions connexes concourant à l'établissement de produits déterminés ou la même profession libérale, peuvent se constituer librement. Les mineurs âgés de plus de 16 ans peuvent adhérer aux syndicats, sauf opposition de leur père ou tuteur. Peuvent continuer à faire partie d'un syndicat professionnel les personnes qui ont quitté l'exercice de leur fonction ou de leur profession si elles l'ont exercée au moins un an.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Rémunération 
+
+Numero:
+42 
+
+Date:
+N/A
+
+Titre:
+Rémunération des heures supplémentaires
+
+Resume:
+- Article 42 : Majoration de 100% au-delà de 48 heures par semaine.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Rémunération 
+
+Numero:
+134 - 139 
+
+Date:
+2020-02-02
+
+Titre:
+La détermination des salaires 
+
+Resume:
+- Article 134 : La rémunération des travailleurs de toutes catégories est déterminée, soit par accord direct entre les parties, soit par voie de convention collective, dans le respect du salaire minimum garanti fixé par décret. La rémunération des travailleurs relevant de secteurs non régis par des conventions collectives peut être fixée par décret. - Article 134-2 : II est entendu par rémunération ce qui est dû au travailleur en contrepartie du travail réalisé au profit de son employeur. La rémunération comprend le salaire de base quel que soit le mode de son calcul et ses accessoires constitués d'indemnités et d'avantages en espèces ou en nature quel que soit leur caractère, fixe ou variable, général ou spécifique, à l'exception des indemnités ayant le caractère de remboursement de frais. Il est entendu par salaire minimum garanti le seuil minimum au dessous duquel il n'est pas possible de rémunérer un travailleur chargé d'accomplir des travaux ne nécessitant pas une qualification professionnelle. Article 139 : La rémunération des travailleurs de toutes catégories doit être payée en monnaie ayant cours légal en Tunisie, sauf dispositions légales ou réglementaires contraires. Cependant, des avantages en nature peuvent être servis conformément aux dispositions réglementaires ou conventionnelles. Ces avantages ne peuvent, en aucun cas, être déduits des salaires minimums payés en espèces.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Horaire de travail
+
+Numero:
+79
+
+Date:
+N/A
+
+Titre:
+Durée de travail
+
+Resume:
+Article 79 : La durée du travail effectif ne peut excéder 48 heures par semaine ou une limitation équivalente établie sur une période de temps autre que la semaine sans que la durée de cette période ne puisse être supérieure à une année.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Horaire de travail
+
+Numero:
+91-93
+
+Date:
+N/A
+
+Titre:
+Les heures supplémentaires
+
+Resume:
+Article 91 : En vue d’accroître la production l'inspection du travail peut, après avis des organisations syndicales ouvrières intéressées, autoriser les chefs des établissements à effectuer des heures supplémentaires en plus de celles qui sont déjà prévus par la réglementation sur la durée du travail. Article 93 : l'exécution d'heures supplémentaires ou la récupération d'heures perdues ne peuvent avoir pour effet de porter à la plus soixante heures, non comprises les heures de dérogation permanentes, la durée hebdomadaire du travail, sauf en cas de travaux urgents dont l'exécution immédiate est nécessaire pour prévenir des accidents imminents ou organiser des mesures de sauvetage .
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Horaire de travail
+
+Numero:
+85
+
+Date:
+N/A
+
+Titre:
+Régime normal Horaire de travail
+
+Resume:
+- Article 85 : Les salariés ne peuvent être employés que conformément aux indications d'un horaire précisant, pour chaque journée et éventuellement pour chaque semaine ou chaque mois, la répartition des heures de travail. Cet horaire fixe les heures auxquelles commence et finit la durée du travail. Des heures différentes de travail et de repos peuvent être prévues pour les catégories de salariés auxquelles s'appliquent les dérogations permanentes prévues à l'article 82 et au paragraphe 3 de l'article 83. Toute modification de la répartition des heures de travail donne lieu, avant l'application, à une rectification de l'horaire précédemment établi. Cet horaire, daté et signé par le chef d'entreprise ou par la personne à laquelle il aura délégué ses pouvoirs à cet effet, est affiché en caractères lisibles et apposé de façon apparente dans tous les lieux de travail auxquels il s'applique ou, en cas de personnel occupé en dehors de l'entreprise dans le local auquel le personnel intéressé est affecté. Un double de l'horaire et de toute modification qui y serait apportée éventuellement doit être préalablement adressé à l'inspection du travail territorialement compétente.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Horaire de travail
+
+Numero:
+90
+
+Date:
+N/A
+
+Titre:
+Définitions des heures supplémentaires 
+
+Resume:
+- Article 90 : Sont considérées comme heures supplémentaires les heures de travail effectuées au-delà de la durée hebdomadaire normale..... - Article 91 : En vue d'accroître la production, l'inspection du travail peut, après avis des organisations syndicales ouvrières intéressées, autoriser les chefs des établissements à effectuer des heures supplémentaires en plus de celles qui sont déjà prévues par la réglementation sur la durée du travail.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Pratiques disciplinaires 
+
+Numero:
+152-3
+
+Date:
+1966-04-03
+
+Titre:
+Droits et responsabilités SST employé
+
+Resume:
+Le travailleur est tenu de respecter les prescriptions relatives à la santé et à la sécurité au travail et de ne pas commettre aucun acte ou manquement susceptible d'entraver l'application de ces prescriptions. Il est tenu notamment de ce qui suit : - exécuter les instructions relatives à la protection de sa santé et de sa sécurité ainsi que celles des salariés travaillant avec lui dans l'entreprise; - utiliser les moyens de prévention mis à sa disposition et veiller à leur conservation; - participer aux cycles de formation et aux activités d'information et de sensibilisation relatives à la santé et à la sécurité au travail que l'entreprise organise ou y adhère; - informer immédiatement son chef direct de toute défaillance constatée susceptible d'engendrer un danger à la santé et à la sécurité au travail; - se soumettre aux examens médicaux qui lui sont prescrits.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Pratiques disciplinaires 
+
+Numero:
+14
+
+Date:
+1994-02-21
+
+Titre:
+La faute grave
+
+Resume:
+- Article 14, quater : La faute grave est considérée comme l'une des causes réelles et sérieuses justifiant le licenciement. Peuvent être considérés comme fautes graves selon les circonstances dans lesquelles ont été commises notamment les cas suivants: • 1) l'acte ou la carence volontaire de nature à entraver le fonctionnement de l'activité normale de l'entreprise ou à lui causer un dommage au patrimoine; • 2) la réduction du volume de production ou de sa qualité due à une mauvaise volonté évidente; • 3) l'inobservation des prescriptions d'hygiène et de sécurité durant le travail ou la négligence de prendre les mesures nécessaires pour assurer la sécurité du personnel dont il est responsable ou pour sauvegarder les objets qui lui sont confiés; • 4) le refus injustifié d'exécuter les ordres relatifs au travail émanant formellement des organes compétents dans l'entreprise employant le travailleur ou de son supérieur; • 5) le fait d'avoir d'une façon illicite obtenu des avantages matériels ou accepté des faveurs en rapport avec le fonctionnement de l'entreprise ou au détriment de celle-ci; • 6) le vol ou l'utilisation par le travailleur, pour son propre intérêt ou pour celui d'une tierce personne, de fonds, de titres ou d'objets qui lui sont confiés en raison du poste de travail qu'il occupe; • 7) le fait de se présenter au travail en état d'ébriété manifeste ou de consommer des boissons alcoolisées pendant la période de travail; • 8) l'absence ou l'abandon du poste de travail d'une façon évidente, injustifiée et sans l'autorisation préalable de l'employeur ou de son représentant; • 9) le fait de se livrer, pendant son travail ou sur les lieux du travail, à des actes de violence ou de menace dûment constatés contre toute personne appartenant ou non à l'entreprise; • 10) la divulgation d'un des secrets professionnels de l'entreprise, hormis les cas autorisés par la loi; • 11) le refus dûment établi de prêter assistance en cas de danger imminent touchant l'entreprise ou les personnes qui s'y trouvent.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Pratiques disciplinaires 
+
+Numero:
+21
+
+Date:
+N/A
+
+Titre:
+Les Causes de licenciement 
+
+Resume:
+- Article 21 : Tout employeur qui a l'intention de licencier ou de mettre en chômage pour des raisons économiques ou technologiques tout ou partie de son personnel permanent, est tenu de la notifier au préalable à l'inspection du travail territorialement compétente. La notification doit comprendre les indications suivantes : • Le nom et l'adresse de l'entreprise, les nom et prénom de son responsable , la date de démarrage de son activité et la nature de celle-ci; • les raisons de la demande de licenciement ou de mise en chômage. La notification doit être également accompagnée par les justifications nécessaires de la demande de licenciement ou de mise en chômage et par la liste de tous les travailleurs de
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Pratiques disciplinaires 
+
+Numero:
+10-13
+
+Date:
+N/A
+
+Titre:
+Les obligation du salarié 
+
+Resume:
+- Article 10 : Le salarié est responsable des conséquences de l'inexécution des instructions qu'il a reçues, lorsqu'elles sont formelles et qu'il n'y a aucun motif grave de s'en écarter. Lorsque ces motifs existent, il doit en avertir l'employeur et attendre ses instructions s'il n'y a péril en la demeure. - Article 11 : Le salarié est tenu de veiller à la conservation des choses qui lui ont été remises pour l'accomplissement des services dont il est chargé. Il doit les restituer après l'accomplissement de son travail et il répond de la perte ou de la détérioration imputables à sa faute. Cependant, lorsque les choses qu'il a reçues ne sont pas nécessaires à l'accomplissement de son travail, il n'en répond que comme simple dépositaire. - Article 12 : Il ne répond pas de la détérioration et de la perte provenant d'un cas fortuit ou de force majeure, sauf le cas où il serait en mesure de restituer les choses qui lui ont été confiées. La perte de la chose, en conséquence des vices ou de l'extrême fragilité de la matière, est assimilée au cas fortuit, s'il n'y a faute de l'ouvrier. - Article 13 : - Le salarié est responsable du vol ou de la disparition des choses qu'il doit restituer à son employeur, sauf s'il prouve qu'il n'a commis aucune négligence.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Pratiques disciplinaires 
+
+Numero:
+14 bis
+
+Date:
+N/A
+
+Titre:
+Fin du contrat de travail 
+
+Resume:
+Chapitre III : Fin du contrat de travail : - Article 14 : Le contrat de travail à durée déterminée prend fin par l'expiration de la durée convenu ou par l'accomplissement du travail objet du contrat. Le contrat à durée indéterminée prend fin par l'expiration du délai de préavis. Le contrat de travail à durée déterminée ou à durée indéterminée prend fin : • a) par l'accord des parties; • b) par la volonté de l'une des parties suite à une faute grave commise par l'autre partie; • c) en cas d'empêchement d'exécution résultant soit d'un cas fortuit ou de force majeure survenu avant ou pendant l'exécution du contrat, soit du décès du travailleur; • d) par la résolution prononcée par le juge dans les cas déterminés par la loi; • e) dans les autres cas prévus par la loi. - Article 14 bis : Le préavis de rupture du contrat de travail à durée indéterminée est notifié par lettre recommandée adressée à l'autre partie un mois avant la rupture du contrat.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Pratiques disciplinaires 
+
+Numero:
+65 - 66
+
+Date:
+2020-06-05
+
+Titre:
+Chapitre III : Travail de nuit des femmes et des enfants
+
+Resume:
+- Article 65 : Les enfants de moins de quatorze ans ne doivent pas être employés la nuit pendant une période d'au moins quatorze heures consécutives qui doit comprendre l'intervalle s'étendant entre huit heures du soir et huit heures du matin. Des arrêtés du secrétaire d'Etat à la Jeunesse, aux Sports et aux Affaires sociales, pris après avis des organisations syndicales intéressées, peuvent, en raison des conditions locales ou des circonstances, substituer à cet intervalle un autre intervalle de douze heures qui ne peut commencer après huit heures trente du soir ni se terminer avant six heures du matin. - Article 66 : Les enfants de plus de 14 ans et de moins de 18 ans et les femmes ne doivent pas être employés la nuit pendant une période d'au moins 12 heures consécutives qui doit comprendre l'intervalle entre 10 heures du soir et 6 heures du matin. Toutefois, dans certaines régions, industries, entreprises ou branches d'industries ou d'entreprises, le ministre chargé des Affaires Sociales peut, par arrêté pris après consultation des organisations syndicales concernées, prescrire des intervalles de temps différents pendant lesquels l'emploi des enfants est interdit à condition que le repos de nuit comprenne l'intervalle s'étendant entre 11 heures du soir et 7 heures du matin.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Pratiques disciplinaires 
+
+Numero:
+68
+
+Date:
+N/A
+
+Titre:
+Interdiction du travail de nuit des femmes
+
+Resume:
+a) en cas de force majeure; b) dans le cas où le travail s'applique. soit à des matières premières, soit à des matières en élaboration, qui seraient susceptibles d'altération très rapide, lorsque cela est nécessaire pour sauver ces matières d'une perte inévitable; c) aux femmes qui occupent des postes de direction ou de caractère technique impliquant une responsabilité; d) aux femmes occupées dans les services sociaux et qui n'effectuent pas normalement un travail manuel. Article 68 -2 : L'intervalle de nuit pendant lequel les femmes ne peuvent être employées prévu par l'article 66 du présent code peut être modifié et l'interdiction du travail de nuit des femmes prévue par le même article peut être levée et ce dans les cas suivants : 1- dans une branche d'activité déterminée ou une profession déterminée, par arrêté du ministre chargé des Affaires Sociales, pris après accord des organisations professionnelles représentant les employeurs et les travailleurs concernés; 2- dans une ou plusieurs entreprises non couvertes par un arrêté pris en application du paragraphe 1, sur autorisation du chef de l'inspection du travail territorialement compétente octroyée sur la base d'un accord conclu entre le chef d'entreprise et les représentants syndicaux des travailleurs concernés et, à défaut, les représentants du personnel dans l'entreprise et ce après consultation des organisations professionnelles représentatives des employeurs et des travailleurs concernés; 3- dans une entreprise non couverte par un arrêté pris en application du paragraphe 1 et dans laquelle un accord n'a pas été conclu concernant la modification de l'intervalle de nuit ou la levée de l'interdiction du travail de nuit des femmes, sur autorisation du chef de l'inspection du travail territorialement compétente octroyée après avis de l'inspection médicale du travail et dans les conditions suivantes : - consultation des organisations professionnelles représentatives des employeurs et des travailleurs concernés; - vérification de l'existence des garanties suffisantes dans l'entreprise pour les travailleuses en ce qui concerne la santé et la sécurité au travail, les services sociaux et l'égalité de chances et de traitement; o - vérification de l'existence des garanties suffisantes concernant les déplacements de la femme du fait du travail; - fixation de la durée de l'autorisation qui peut être renouvelée selon les mêmes conditions. - Article 68 -3 : II est interdit d'appliquer les dispositions de l'article 68-2 à la femme travailleuse pendant une période de seize semaines au minimum avant et après l'accouchement, dont au moins huit avant la date probable de l'accouchement. Cette interdiction peut être levée par une autorisation du chef de l'inspection du travail territorialement compétente après avis de l'inspection médicale du travail. Cette autorisation est octroyée sur la base d'une demande écrite de la femme travailleuse concernée à condition que sa santé et celle de son enfant ne soient pas exposées au danger. L'interdiction prévue au premier paragraphe du présent article s'applique durant d'autres périodes sur présentation de certificats médicaux indiquant que l'interdiction pendant ces périodes est nécessaire pour la santé de la mère et de son enfant. Ces périodes se situent pendant la grossesse ou pendant une période déterminée prolongeant la période post-natale prévue au premier paragraphe du présent article. Art. 68-4 : L'application des dispositions de l'article 68-3 du présent code ne peut constituer une raison de rupture du contrat de travail.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Pratiques disciplinaires 
+
+Numero:
+64
+
+Date:
+N/A
+
+Titre:
+ Protection de la maternité 
+
+Resume:
+- Article 64 : Dans les entreprises de toutes natures, à l'exception des établissements où sont exclusivement employés les membres d'une même famille, la femme: a) aura droit à l'occasion de son accouchement sur production d'un certificat médical à un congé de repos de 30 jours. Ce congé peut être prorogé chaque fois d'une période de 15 jour sur justification des certificats médicaux. b) aura droit dans tous les cas, si elle allaite son enfant et pendant une année à compter du jour de la naissance, à deux repos d'une demi-heure chacun durant les heures de travail pour lui permettre l'allaitement. Ces deux repos sont indépendants des repos prévus à l'article 89. L'un est fixé pendant le travail du matin, l'autre pendant l'après-midi. Ils peuvent être pris par les mères aux heures fixées d'accord entre elles et les employeurs. A défaut d'accord, ces repos sont placés au milieu de chaque période. Ces repos sont considérés comme heures de travail et ouvrent droit à rémunération. Une chambre spéciale d'allaitement doit être aménagée dans tout établissement occupant au moins cinquante femmes. Un arrêté du secrétaire d'Etat à la Jeunesse, aux Sports et aux Affaires sociales, pris après avis des organisations professionnelles intéressées. détermine les conditions aux-quelles doit satisfaire cette chambre d'allaitement.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Pratiques disciplinaires 
+
+Numero:
+95
+
+Date:
+N/A
+
+Titre:
+Le repos hebdomadaire
+
+Resume:
+- Article 98 : En cas de travaux urgents dont l'exécution immédiate est nécessaire pour organiser des mesures de sauvetage, pour prévenir des accidents imminents ou réparer des accidents survenus au matériel, aux installations ou aux bâtiments de l'établissement, le repos hebdomadaire peut être suspendu pour le personnel nécessaire à l'exécution de ces travaux. Cette faculté de suspension s'applique, non seulement aux ouvriers de l'entreprise où les travaux urgents sont nécessaires mais aussi à ceux d'une autre entreprise faisant les opérations pour le compte de la première. Dans ces entreprises, chaque ouvrier doit jouir d'un repos compensateur d'une durée égale au repos supprimé. Les dérogations prévues par le présent article ne sont pas applicables aux garçons de moins de seize ans et aux filles de moins de vingt ans.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+06
+
+Date:
+1976-11-11
+
+Titre:
+Délégués du personnel - Comité  d'entreprise
+
+Resume:
+- L'institution, l'organisation, l'élection et les attributions de délégués du personnel et des comités d'entreprises sont réglés par la législation en vigueur. - Toutefois, les précisions et stipulations complémentaires énoncées ci-dessous et concernant les délégués du personnel sont admises au même titre que la loi. - Chaque délégué doit travailler normalement dans son emploi, son régime de travail n'étant pas différent de celui en vigueur dans son atelier ou service. - Dans l'exercice de leur mandat, et dans la imite du nombre d'heures qui leur est alloué, les délégués pourront s'absenter de l'établissement pour des motifs ayant trait à leurs fonctions, après en avoir informé l'employeur ou leur chef direct. - L'exercice normal de la fonction de délégué ne peut être une entrave à l'amélioration de sa situation, ni provoquer de licenciement, de sanctions, ni constituer un motif de mutation de service non justifiée. - Dans la mesure ou l'entreprise occupe le minimum légal de travailleurs pour l'institution d'un comité d'entreprise, les parties intéressées se conformeront à la législation en vigueur.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+07
+
+Date:
+1976-11-11
+
+Titre:
+Commission paritaire consultative
+
+Resume:
+Il est institué une commission paritaireconsultative dans haque établissment de quelque catégorie que ce soit ou sont emlpoyés habituellement au moins vingt (20) travailleurs, soit directement, soit par l'intermédiare de filiales. Pour les établissements occupant moins de vingt travailleurs, situés dans la meme localité possibilité leur est soit de former une commission paritaire commune, soit de se réunir directement avec les délégués du personnel. Ces derniers réunions tiennent lieu de commissions paritaires
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+08
+
+Date:
+1976-11-11
+
+Titre:
+ Composition de la Commission 
+
+Resume:
+La commission paritaire consultative, présidée par l'employeur est compétente pour toute question intéressant le personnel soumis à la à la présente convention collective. Elle comprend: 2 membres titulaires dont le président de 2 membres suppléants représentant le ou les employeurs concernés. 2 Mmembres titulaires et 2 membres suppléants réprésentant le prsonnel (ouvriers, employtés, agents de de maitrise et cadres) élus par le personnel. Le mondat des membres est valable pour deux années et est renouvelable dans les memes condtions. Les travaeilleurs appelés à sieger à la commission paritaire consultative sont considerés comme étant en service et payés en conséquences. Cette commission fixe elle-meme son réglement intérieuret, en particulier, la périodicité e ses réunions
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+09
+
+Date:
+1976-11-11
+
+Titre:
+Election des membres de la commission
+
+Resume:
+sont électeurs, les travailleurs des deux sexes, âgés de 18 ans accomplis, travaillant de façon continue depuis un an au moins dans l'établissement. Sont éligibles, à l'exception des ascendants, frères, soeurs et alliés au même degré de l'employeur, les travailleurs de nationalité tunisienne âgés de vingt ans accomplis, sachant lire et écrire, et travaillant dans l'établissement de façon contrinue depuis un an au moins. Les membres de la commission sortants sont réeligibles. Le bureau électoral sera composé d'un réprésentant de l'employeur, président et de deux électeurs désignés par l'iorganisation syndicale intéressée ou, à défaut, par le personnel L'un de ces deux derniers tiendra une liste des électeurs et procèdera au pointage au fur et à mesure du déroulment du vote. Les condidats qui obtiennet le plus grand nombre de voix soont élus membres titulaires; les suivants sont élus membres suppléant. En cas d'égalité de vois, le plus anien dans l'établissement est élu.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+10
+
+Date:
+1976-11-11
+
+Titre:
+Attributions de la commission
+
+Resume:
+La commission paritaire consultative : 1) Veille notamment à l'application de la convention collective 2) Émets les suggestions sur toutes les questions intéressant le personnel 3) concourt à l'établissement du tableau d'avancement et donne son avis sur l'attribution de la prime de rendement 4) Examine les conditions minimales et les règles générales d'avancement de l'ensemble du personnel 5) Formule un avis sur les cas de changement d'affectation ou de classement pour raison physiques, professionnelles ou personnelles 6) émet en l'absence d'un comité d'entreprise, après examen, un avis sur les réquetes inividuelles oou collectives qui peuvent etre soumises par les représntants 7) étudie les problèmes intéressant l'ensemble du personnel, notamment les questions d'apprentissage, de formation et de perfectionnement professionnels 8) participe à l'étude , à l'adoptionet à l'application des dispositions relatives, éventuellement à la retraite et aux oeuvres sociales 9) Donne son avis aux fins de promotion , de mutation ou de licenciement; 10) Ellle s'érige en conseil de discipline En régle générale, elle s'exerce l'ensemble es attributions qui lui sont conférées par la présente convention. En tout état de cause, les délibérationsde cette commission sont soumis à l'employeuir pour décision
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+11
+
+Date:
+1976-11-11
+
+Titre:
+Discipline
+
+Resume:
+La gravité de la faute est appréciciée est en fonction des circonstances au cours desquelles elle a été commise, de la nature des fi des travailleurs qui sont coupables, et de la gravité de ses conséquences. Les sanctions disiplinaires applicables aux travaielleurs suivant la gravité des faute commises sont : Sanctions 1èr degré : 1) L'avertissement verbal; 2) L'avertissement par écrit avec inscriptions au dossier 3) Le blame avec inscription au dossier 4) La mise à pied pour une période maximum de 03 jours privatie de toute rémunération Sactions 2 ème degré : 1) La mise à pied jusqu'à trente jours, privative de toute rémunération 2) L'abaissement d'échelon 3) La rétrogration d'échelle 4) le licenciement .Les sanctions du 1er dégré sont prononcés directement par l'employeur, après que le travailleur ait été mis en mesure de fournir ses explications. Pour les sanctions de 2ème degré, le travailleur est obligatoirement traduit devant la commission paritaire érigée en conseil de dicipline qui donne son avis à l'employeur sur la sanction à prendre; celuii ci notifie sa décision par écrit au travailleur.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+14
+
+Date:
+1976-11-11
+
+Titre:
+Embauchage
+
+Resume:
+Le personnel embauché est classé en catégories professionnelles et rémunéré en conséquences L'embauchage se fera conformément à la législation en vigueur. Tout travailleur sera obligatoirement informé par écrit lors de son embauchage, du lieu de travail, de l'emploi qu'il va occuper, de la catégorie professionnelle dans laquelle il sera affecté, de l'échelon, du taux de salaire de base correspondante et à la durée de période d'essai
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+20
+
+Date:
+1976-11-11
+
+Titre:
+Indemnité de Transport
+
+Resume:
+Il sera alloué à chaque travailleur une indemnité de transport fixée forfaitairement à deux dinars payable et payable à terme échu. Cette indemnité cubit des abattements proportionnels à la durée des absences non justifiées
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+21
+
+Date:
+2023-01-17
+
+Titre:
+Indemnité de panier 
+
+Resume:
+Les travailleurs nommément désignés ( ou astreits à la faire) pour demeurer sur les liux de travail pendant toute l'ampitude de la durée journalière du travail auront droit à une indemnité de panier fixée à 150 millimes
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+22
+
+Date:
+1976-11-11
+
+Titre:
+Indemnité de caisse
+
+Resume:
+Les commises principales responsables de la tenue d'une caisse bénéficieront d'une indemnité de caisse fixée à 05 dinars par mois. Cette indemnité n'est pas cumulable avec celle pratiquée dans certaines entreprises et calculée en pourcentage du chiffre d'affaire, toute fois, au cas ou cette dernière indemnité est inférieure à 05 dinars par mois. Cette indemnité n'est pas cumulable avec celle pratiqyuée dans certaines entreprises et calculée en pourcentage du chiffre d'affaire. Toute fois, au cas cas iou cette dernière indemnité est inférieure à 05 dinars, l'employeur sera tenu de verser le complément
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+23
+
+Date:
+1976-11-11
+
+Titre:
+indemnité demi-journée 
+
+Resume:
+L'indemnité prévue à l'article 5 du décret du 8 Janvier 1948, et dont le montant est actuellement de 40millimessera allouée aux salariés remplissant les conditions requies, comme les indemnités ci dessus, elle dt figurer séparément sur le bulletin de paie.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+24
+
+Date:
+2022-09-17
+
+Titre:
+Prime de scolarité
+
+Resume:
+Les salaiés mariés et ayant des enfants à charge, bénéficieront, à la rentrée scolaire, d'une prime de scolarité calculée à raison d'un dina par enfant poursuivant des études scolaires, sans toutefois dépasser 4 dinars qul que soit le nombre d'enfants
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+25
+
+Date:
+1976-11-11
+
+Titre:
+Prime d'assiduité 
+
+Resume:
+Une prme égale à trois jours de salaire ( Salaire de base) sera servie à tout travailleur ayant eu une présence assidue durant six mois consécutifs
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+26
+
+Date:
+1976-11-11
+
+Titre:
+Prime de rendement et de fin d'année
+
+Resume:
+Les trravailleurs ainsi que le sréprésentants des organisation syndicales sony=t tenus d'apporter leur concours à l'amélioration de la productivité e l'entreprise, afin d'encourager ls travailleurs à contribuer à l'amélioration de la productivité de l'entreprise une prime dite "de rendement et de fin d'année" pourra leur etre attribuée sur la base d'une not professionnelle annuelle calculée d'après les quatres éléments suivants : Rendement conscience profesionnelle, assiduité,ponctualité. Chacun de ces élements est noté de zéro à 5. Le total "N" des quatre notes détermine "P" de la prime selon la formule : P = S * N/20 dans laquelle S réprésente : - Pour les travailleurs payés au oins : une fois e demie le salaire mensuel brut de base, - Pour les travailleurs payés à l'heure : Le salaire brut de basee de 6 semaines pour la durée normale du travail Les travailleurs ayant obtenu une note N inférieure à 5 ne peuvent prétendre à aucune prime. La prime ainsi déterminée subit, en outre, de abattements proportionnels à la durée totale desabsences non payés par l'employeur.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+27
+
+Date:
+1976-11-11
+
+Titre:
+Assistace décès 
+
+Resume:
+En cas de décès d'un travailleur en activité, ayant accompli aux moins six mois de services effectifs dans l'entreprise, il sera alloué à sa veuve ou, à défaut, à ses enfants à charge, des secours en espèces dont le montant sera égal à l'indemnité de licenciement qu'aurait recu le travailleur s'il avait été congédié. Ces secours sont indépendants du capital décès servi par les organismes de prévoyance sociale.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+28
+
+Date:
+1976-11-11
+
+Titre:
+Indemnité de départ à l'age de la retraite
+
+Resume:
+L'âge normal de la retraite prévu par le régime de sécurité sociale étant 60 ans, le départ à la retraite à un âge égal ou supérieur à 60 ans ne constitue ni une démission, ni un licenciement. Le salarié partant à la retraite aura droit à une indemnité égale à une mentalité et demie s'il paye au moins et a six semaines de salaires s'il est payé à l'heure. Pour l'application de la présente disposition, on entend par salaire, le salaire de base. Cet avantage est également applicable aux salariées âgées de 55 ans au moins, qui ont été reconnus inaptes au travail par la sécurité Sociale et bénéficient de ce fait d'une pension d 'invalidité. L'indemnité de départ à la retraite ne se cumule pas avec l'indemnité de liceniement. Elle n'est pas due non plus en cas de licenciemet prononcé en raison d'un efaute grave du salarié.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+18
+
+Date:
+1976-11-11
+
+Titre:
+Rémunération des jeunes travailleurs 
+
+Resume:
+Le salaire minimum applicable aux jeunes travailleurs de l'un ou de l'autre sexe, âgés de moins de 18 ans et de capacité physique normale, comprte un abattement fixé à 15 %. Cet abattement est supprimé après un an d'ancienneté dans l'entreprise. Les jeunes travailleurs liés par un contrat d'apprentissage ne sont pas concernés par le présent article.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+29
+
+Date:
+1976-11-11
+
+Titre:
+Bulletin de paie
+
+Resume:
+l est remis à chaque salarié, à l'occasion de versement de sa rémunération, un bulletin de paie portant, en plus des mentions prévues à l'article 143 du code de travail, la catégorie professionnelle de l'échelon. Chaque salarié à le droit d'obtenir communication des éléments ayant servi à déterminer sa rémunération. La paie est effectuée pendant les heures et surles lieux de travail. Lorsque le jour du paiement des salaires coincide avec un jour non ouvrable, le versement des salaires et la délivrance du bulletin de paie seront effectués la veille.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+35
+
+Date:
+1976-11-11
+
+Titre:
+Protection des travailleurs dans l'exercice de leurs fonctions 
+
+Resume:
+- Le travailleur a droit, conformément aux règles du code pénal et des lois en vigueur, à une protection contre les ménaces, outrages injures ou diffamations dont il peut etre l'objet dans l'exercice de ses fonctions. Dans ce cas, la préjudice que subirait le travailleur sera réparé conformément à la législation en vigueur.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+36
+
+Date:
+1976-11-11
+
+Titre:
+Hygiène et sécurité 
+
+Resume:
+- L'employeur est tenu d'aménager les locaux dans un état sanitaire répondant à toutes les conditions d'hygiène et de sécurité. Il fera installer, en particulier, des lavabos, des douches, des WC, des vestiaires pour les effets du personnel. Un local sera aménagé pour permettre au personnel d'y passer la coupure entre les deux séances de travail, dans le cas ou les travailleurs seraient dans l'obligation de ne pas rentrer chez eux. - Toutefois, pour les établissements en fonction à la date d'entrér en vigueur de la présente convention, il sera tenu compte des possibilités d'extension ou d'aménagement de ces installations. - Les mesures de séurité du travailleur et sa protection contre les dangers auxquels sa santé peut etre exposée du fait de son métier seront arretées après consultation de la commission paritaire et mise en place, éventuellement, du comité obligatoire d'hygiène et de sécurité prévu par la législation en vigueur . - La non-observation des dispositions des paragraphes )précédents engage la responsabilité de l'employeur. - Les salariés s'engagent, de leur coté, à utliser corectement les dispositions de sécurité ou de protection mis à leur disposition.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+37
+
+Date:
+1976-11-11
+
+Titre:
+Tenues de travail et de protection 
+
+Resume:
+L'employeur asure à ses frais l'achat des vetements ainsi que des chaussures de travail. Le nombre de vetements et des chaussures de travail ainsi que leur nature sintfixés comme suit : Hommes : 2 Pantallons, 2 chemises et 1 paire de chassures Femmes : 2 Tabliers, 2 chemisettes et ue paire de chaussures L'employeur fournira également et gratuitement les tenues de protection s'il y a lieu. la commission paritaire ou, à défaut, le réprésentant du personnel, en accors avec l'employeur, arrétera les normes de ses vetements et chaussures de travail et de protection propres à l'établissement. Un vestiaire est mis à la disposition du personnel pour y déposer les vêtements de travail et de protection. Le port de vêtements et chaussures de travail est obligatoire
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+39
+
+Date:
+1976-11-11
+
+Titre:
+Durée normale 
+
+Resume:
+La durée hebdomadaire normale du travail et sa réparatition seront réglées conformément aux dispositions légales et réglementaires en vigueur.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+40
+
+Date:
+1976-11-11
+
+Titre:
+Repos de nuit 
+
+Resume:
+La durée du repos de nuit ne peut être inférieure à 10 heures sans préjudice des dispositions spéciales concernant les femmes et les enfants
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+41
+
+Date:
+1976-11-11
+
+Titre:
+Rémunération  du travail de nuit
+
+Resume:
+Les heures de travail effectuées la nuit entre 20 heures et 05 heures du matin donnent lieu à une majoration de salaire de 50% La majoration d'applique exclusivement sur le prix d'une heure normale et non pas sur le prix de l'heure déja majoré par le jeu des heures supplémentaires. Cette disposition ne s'applique pas aux gardiens et veileurs de nuit.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+42
+
+Date:
+1976-11-11
+
+Titre:
+Heures supplémentaires 
+
+Resume:
+Les heures supplémentaires effectuées au-déla de la durée normale du travail hebdomadaire (48H) donnent lieu à une majoration de 100%.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+43
+
+Date:
+1976-11-11
+
+Titre:
+Repos hebdomadaire 
+
+Resume:
+Il est accordé au personnel un repos hebdomadaire de 24 Heures consécutives, compte tenu des dispositions du code de travail. Pendant ce repos, le travailleur gardera le cas échéant, le bénéfice de tous les avantages en nature dont il dispose sans pour autant prétendre à une compensation.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+45
+
+Date:
+1976-11-11
+
+Titre:
+Absences
+
+Resume:
+Aucune absence ne sera tolérée sans uatorisation préalable de l'employeur, sauf cas de force majeure. Les absences dues à un cas fortuit, dument constat, ascendant ou d'un déscendant, sont portées le plus rapidement possible et au plus tard dans les deux jours à la connaissance de l'employeur. La durée de telles absences doit etre en rapport avec les évènements qui les ont motivées. Dans le cas d'absences prévisibles, le travailleur ne pourra s'abenter qu'après avoir obtenu l'autorisation préalable de l'employeur. des autorisations d'absences seront également accordées aux salariés qui participeront à la commission paritaire déidée entre les deux organisations syndicales patronale et ouvrière intéressées. Le temps de travail perdu sera payé par l'employeur comme temps de travail effectif. Dans tous les cas, les salariés s'efforceront de réduire au minimum les inconvénients que leur absence pourrait apporter la marche de l'entreprise.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+49
+
+Date:
+1976-11-11
+
+Titre:
+Congés de maladie
+
+Resume:
+- Le travailleur atteint d'une incapacité de travail par suite de maladie est placé dans la position de congé de maladie à condition qu'il fournisse dans les 48 Heures, un certificat médical précisant la nature de la maladie et sa durée probable. Sera exclu du bénéfice des dispoitions du 1er paragraphe du présent article, tout travailleur qui : a) Interrompt son travail pour des raisons qui résultent soit de son intempérance ou de son inconduite soit des b lessures recues en dehors du travail, s'il est reconnu fautif b) N'observe pas les prescriptions médicales ou s'absente de son domicile sans autorisation de médecin c) Prolonge la cessation du travail au-delà du délai prescrit par les médecins .Il est alors considéré comme étant en absence injustifiée et passible, à ce titre de sanctions disciplinaires. L'employeur se réserve le droit de faire effectuer à domicile tout controle médical qu'il jugera utile. Les travailleurs placés n position de congé de maladie bénéficieront, événtuellment, d'un régime complémentaire, en sus du bénéfice des dispositions prévues par le réglement de la Caisse Nationale de Sécurité Sociale. Ce régimecomplémentaire est prévu à l'article 53 de la présente convention collective.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+50
+
+Date:
+1976-11-11
+
+Titre:
+Congés exceptionelles
+
+Resume:
+Les absences ayant pour cause l'accaomplissement d'un devoir imposé par la loi sont autorisées pour une période m'excédant pas 48 heures, sauf cas de force majeure dument établie. Les absences, à l'occasion de la convention aux congrès professionnels syndicaux, fédéraux, confédéraux et internationaux des travailleurs représentants, dument mandatés des syndicats, ou des membres élus des organismes directeurs, seront payées conformément à la législation en vigueur. Quand à la durée de ces absences , elle est égale au total des journées indiquées dans les convocations et correspondant à la durée du congrés, aumenté, e cas écéant des délais de route nécessaires
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+52
+
+Date:
+1976-11-11
+
+Titre:
+Congés sans solde 
+
+Resume:
+Un congé sans solde pourra etre accordé par l'employeur à tout travalleur permanent qui en ferait la demande, dans la limite des nécessités de service. La durée de ce congé qui porte interruption du droit à l'avancement et au versement effectué par l'employeur aux organismes d'assurances sociales, ne pourra excéder 90 jours par an sauf dispositions contractuelles particulières plus favorables.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+54
+
+Date:
+1976-11-11
+
+Titre:
+Cessation de la relation de travail 
+
+Resume:
+Cessation du service pour raison de santé : Lorsqu'un travailleur sera jugé à l'expiration des périodes de congé e maladie ou de longue maladie comme ne possédent plus les aptitudes physiques nécessaires à l'exercice de l'emploi occupé, il devra se soumettre à la visite médicale d'un médecin de l'entreprise. Le travailleur a la faculté de contester les conclusions du médecin, dans ce cas, une contre visite sera effectuée par deux médecin, l'un choisi par le travailleur, l'autre par l'employeur, en cas de désaccord, un troisième médecin désigné par les deux premiers sera chargé d'arbitrer. La cessation de service pour raisons de santé donne lieu aux avantages stipulés par les dipositions légale en vigueur. La cessation de service du travailleur inapte n'interviendra que dans la mesure ou il n'existe pas d'emploivacant susceptible de lui etre confié malgré saaaaaaa déficience physique, en finction de ses aptitudes professionnelles
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+56
+
+Date:
+1976-11-11
+
+Titre:
+Cessation de la relation de travail -  Délai - congé 
+
+Resume:
+Délai - congé : EN cas de rupture du contrat de travail après l'expiration de la période d'essai, la durée du délai-congé réciproque, sauf cas de faute grave ou de force majeure, sera de : - 15 jours pour les salariés payés à l'heure - 1 mois ou 30 jours de date à date pour les salariés payés au moins Le délai de congé doit etre notifié, soit par envoie d'une lettre recommandée avec accusé de réception, soit par remise direct de la lettre à l'intéressé, contre recu ou devant témoins; il prend effet à compter de la date de la présentation de la lettre recommandé ou celle de la remise directe de la terre
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+56
+
+Date:
+1976-11-11
+
+Titre:
+Licenciement par suite de suppression d'emplois ou de compression de personnel 
+
+Resume:
+Au cas ou l'employeur era amené à réduire le personnel pour raisons d'ordre économique ou de suppression d'emplois, il est tenu de se confomer à lalégislation en vigueur. Cette réduction s'opérera, le cas échéant,, par catégorie professionnelle, en tenant compte es éléments d'appréciation suivante : a) La valeur professionnelle b) L'ancienneté c) Les charges de famille La mesure doit , en principe, toucher d'abord les célibataires, puis les mariés sans enfant et, en dernier lieu les maroés avec enfants à charge, compte tenu de leur nombre. Chaque enfant à charge comptant pour un an d'ancienneté supplementaire. Le personnel licencié dans ces conditions aura, pendant la durée d'un an, priorité de réemploi dans un emploi de meme nature, dans l'ordre inverse des licenciements.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+57
+
+Date:
+1976-11-11
+
+Titre:
+Indemnité de licenciement 
+
+Resume:
+Il sera alloué à tout travailleur licencié après 06 mois de services effectif, au moment de son dépar, sauf faute grave dument établi, une indemnité de licenciement calculée à raison de 15 jours de salaire par année de servuices effectifs dans la meme entreprise, sur la base du salaire percu lors du licenciement, compte tenu de tous les avantages n'ayant pas de caractère de remboursement de frais. Cette indemnité ne peut excéder six mois de salaire quelle que soit la durée des services, le tout sauf dispositions particulières plus favorables. L'indemnité de licenciement est distincte de celle due pour inobservation du préavis ainsi que des dommages intérets dus au cas d'un licenciement abusif
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+58
+
+Date:
+1976-11-11
+
+Titre:
+Démission
+
+Resume:
+La démission ne peut résulter que une demande écrite du travailleur marquant sa volonté non équivoque et inconditionnelle de quitter définitivement l'entreprise qui l'emploi. Le travailleur démissionnaire peut éventuellement, etre réembauché par l'employeur. Le travailleur doit dans ca cas satisfaire à toutes les conditions à l'emploi postulé sans considératioon de son ancienne situation au sein de l'entreprise.
+
+
+==================================================
+
+Application:
+SOCIALE
+
+Theme:
+Convention Collective Nationale des Teintureries et Blanchisseries
+
+Numero:
+59
+
+Date:
+1976-11-11
+
+Titre:
+Certificat de travail
+
+Resume:
+Il est délivré à tout travailleur, au moment ou il quitte l'entreprise, un certificat de travail indiquant exclusivement : - Les noms et adresse de l'employeur - Les dates d'entrée et de sortie du travailleur - La nature de l'emploi, où, le cas échéant, des emplois successivement occupés, ainsi que les périodes pendant lesquelles ces emplois ont été occupés.
+
+
+==================================================
+
