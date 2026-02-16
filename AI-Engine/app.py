@@ -5,7 +5,7 @@ from database import get_vector_db, hybrid_search
 
 def ask_mistral(query, context_docs):
     if not context_docs:
-        return "❌ Aucune information trouvée dans les documents fournis."
+        return "Aucune information trouvée dans les documents fournis."
 
     # --- STEP 1: DEDUPLICATION ---
     # This prevents the AI from seeing the same text 3 times if it exists in 3 files
@@ -57,16 +57,16 @@ QUESTION :
         response.raise_for_status()
         return response.json()['choices'][0]['message']['content']
     except Exception as e:
-        return f"⚠️ Erreur Technique : {str(e)}"
+        return f" Erreur Technique : {str(e)}"
 
 # --- MAIN INTERFACE ---
 if __name__ == "__main__":
-    print("⏳ Chargement du cerveau juridique...")
+    print(" Chargement du cerveau juridique...")
     db = get_vector_db()
-    print("✅ Prêt. (Dédoublonnage activé)")
+    print(" Prêt. (Dédoublonnage activé)")
 
     while True:
-        user_in = input("\n👉 Votre question : ")
+        user_in = input("\n Votre question : ")
         if user_in.lower() in ['exit', 'quit']:
             print("Fermeture...")
             break
@@ -78,5 +78,5 @@ if __name__ == "__main__":
         answer = ask_mistral(user_in, docs)
         
         print("\n" + "─"*50)
-        print(f"⚖️ RÉPONSE SYNTHÉTIQUE :\n{answer}")
+        print(f" RÉPONSE SYNTHÉTIQUE :\n{answer}")
         print("─"*50)
