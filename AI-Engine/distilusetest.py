@@ -8,8 +8,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from queries import TEST_QUERIES
 from database import hybrid_search 
 
-MODEL_NAME = "intfloat/multilingual-e5-base"
-DB_DIR = "./db_e5"
+MODEL_NAME = "sentence-transformers/distiluse-base-multilingual-cased-v2"
+DB_DIR = "./db_distiluse"
 FILES = ["data/Articles.txt", "data/Lois.txt", "data/Termesjuridiques.txt"]
 BASE_PDF_PATH = "./data/pdfs/"
 
@@ -41,11 +41,10 @@ def run_test():
                     except: pass
             all_docs.append(Document(page_content=f"{resume} {p_text}", metadata={"id": id_v, "source": f_path}))
 
-    splitter = RecursiveCharacterTextSplitter(chunk_size=600, chunk_overlap=100)
+    splitter = RecursiveCharacterTextSplitter(chunk_size=700, chunk_overlap=100)
     chunks = splitter.split_documents(all_docs)
     emb = HuggingFaceEmbeddings(model_name=MODEL_NAME, encode_kwargs={'normalize_embeddings': True})
     db = Chroma.from_documents(chunks, emb, persist_directory=DB_DIR, collection_metadata={"hnsw:space": "cosine"})
-
     hits, total_mrr, total_precision, start_time = 0, 0, 0, time.time()
     print(f"\n--- Detailed Audit for {MODEL_NAME} ---")
     for test in TEST_QUERIES:
