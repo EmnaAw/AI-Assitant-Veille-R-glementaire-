@@ -8,8 +8,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from queries import TEST_QUERIES
 from database import hybrid_search 
 
-MODEL_NAME = "BAAI/bge-m3"
-DB_DIR = "./db_bge_m3"
+MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+DB_DIR = "./db_minilm"
 
 FILES = ["data/Articles.txt", "data/Lois.txt", "data/Termesjuridiques.txt"]
 BASE_PDF_PATH = "./data/pdfs/"
@@ -42,10 +42,11 @@ def run_test():
                     except: pass
             all_docs.append(Document(page_content=f"{resume} {p_text}", metadata={"id": id_v, "source": f_path}))
 
-    splitter = RecursiveCharacterTextSplitter(chunk_size=1200, chunk_overlap=200)
+    splitter = RecursiveCharacterTextSplitter(chunk_size=600, chunk_overlap=100)
     chunks = splitter.split_documents(all_docs)
     emb = HuggingFaceEmbeddings(model_name=MODEL_NAME, encode_kwargs={'normalize_embeddings': True})
-    db = Chroma.from_documents(chunks, emb, persist_directory=DB_DIR, collection_metadata={"hnsw:space": "cosine"})
+    db = Chroma.from_documents(chunks, emb, persist_directory=DB_DIR, collection_metadata={"hnsw:space": "l2"})
+
 
     hits, total_mrr, total_precision, start_time = 0, 0, 0, time.time()
     print(f"\n--- Detailed Audit for {MODEL_NAME} ---")
@@ -58,15 +59,10 @@ def run_test():
         for i, s in enumerate(found_sources):
             if expected_filename in s:
                 if not is_hit: is_hit, rank_score = True, 1/(i + 1)
-                relevant_count += 1        
+                relevant_count += 1
+        
         status = " MATCH" if is_hit else " FAIL "
         print(f"{status} | Query: {test['q'][:50]}...")
-        
-        # --- ADD THIS TO PROVE PDF USAGE ---
-        if results:
-            content_snippet = results[0].page_content.replace('\n', ' ')
-            print(f"      📖 CONTENT FOUND: {content_snippet[:150]}...") 
-        # ----------------------------------
         if not is_hit:
             print(f"       Expected: {expected_filename} | AI Found: {found_sources}")
 
