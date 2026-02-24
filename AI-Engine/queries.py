@@ -98,7 +98,7 @@ TEST_QUERIES = [
 {"q": "Quelle est la loi sur le système national de normalisation ?", "expected": "Lois.txt (Loi 2009-38)"},
 {"q": "Où est mentionnée la surveillance statistique du remplissage ?", "expected": "TermesJuridiques.txt (Balances automatiques)"},
 {"q": "Quelle est la sanction de 60 à 1000 dinars ?", "expected": "TermesJuridiques.txt (Infraction eau)"},
-{"q": "Quel texte définit la démission inconditionnelle ?", "expected": "Articles.txt (Article 58)"}
+{"q": "Quel texte définit la démission inconditionnelle ?", "expected": "Articles.txt (Article 58)"},
 {"q": "Quel est le barème d'emploi pour l'élevage bovin (production de lait) ?", "expected": "TermesJuridiques.txt (Barèmes agricoles)"},
 {"q": "Où est mentionnée l'interdiction de mentions discriminatoires sur le certificat de travail ?", "expected": "Articles.txt (Article 59)"},
 {"q": "Quel est l'objet de la loi n° 2009-10 relative à l'INM ?", "expected": "Lois.txt (Institut National de la Météorologie)"},
