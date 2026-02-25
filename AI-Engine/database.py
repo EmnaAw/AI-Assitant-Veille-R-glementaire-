@@ -1,6 +1,6 @@
 import re
 from langchain_community.retrievers import BM25Retriever
-from langchain_community.retrievers import EnsembleRetriever 
+from langchain_community.retrievers import EnsembleRetriever
 from langchain_core.documents import Document
 
 def hybrid_search(query, vector_db, k=3):
