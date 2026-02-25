@@ -5,7 +5,7 @@ __pycache__/
 
 db_labse/
 db_minilm/
-db_bge_m3/
+db_labse/
 db_e5/
 db_distiluse/
 db_bge_fr/
