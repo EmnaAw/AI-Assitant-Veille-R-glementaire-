@@ -1,29 +1,35 @@
 import re
 from langchain_community.retrievers import BM25Retriever
-from langchain_community.retrievers import EnsembleRetriever 
 from langchain_core.documents import Document
 
 def hybrid_search(query, vector_db, k=3):
-    # 1. Extract data from Chroma
-    data = vector_db.get()
+    # --- 1. SEMANTIC SEARCH (Chroma) ---
+    # Get more than k results to allow for better merging later
+    semantic_docs = vector_db.similarity_search(query, k=k)
     
-    # 2. Reconstruct Document objects
-    docs = [
+    # --- 2. KEYWORD SEARCH (BM25) ---
+    data = vector_db.get()
+    all_docs = [
         Document(page_content=d, metadata=m) 
         for d, m in zip(data['documents'], data['metadatas'])
     ]
     
-    # 3. Keyword Retriever
-    bm25_retriever = BM25Retriever.from_documents(docs)
-    bm25_retriever.k = k
+    bm25_retriever = BM25Retriever.from_documents(all_docs)
+    keyword_docs = bm25_retriever.invoke(query)[:k]
     
-    # 4. Semantic Retriever
-    chroma_retriever = vector_db.as_retriever(search_kwargs={"k": k})
+    # --- 3. MANUAL MERGE & DE-DUPLICATION ---
+    # We combine both lists and keep unique docs based on page_content
+    combined_docs = semantic_docs + keyword_docs
     
-    # 5. Combine
-    ensemble = EnsembleRetriever(
-        retrievers=[bm25_retriever, chroma_retriever], 
-        weights=[0.3, 0.7]
-    )
+    seen_content = set()
+    unique_docs = []
     
-    return ensemble.invoke(query)
+    for doc in combined_docs:
+        # Simple cleaning to check for duplicates
+        content_hash = doc.page_content.strip()
+        if content_hash not in seen_content:
+            unique_docs.append(doc)
+            seen_content.add(content_hash)
+            
+    # Return the top k unique results
+    return unique_docs[:k]
