@@ -6,7 +6,7 @@ from judge import evaluate_answer
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
 
-MODEL_TAG = "mistral:v0.3"
+MODEL_TAG = "llama3.1:8b"
 
 def run():
     emb = HuggingFaceEmbeddings(model_name="BAAI/bge-m3")
@@ -21,7 +21,8 @@ def run():
         docs = hybrid_search(item['question'], db, k=2)
         context = "\n".join([d.page_content for d in docs])
         
-        ans = llm.invoke(f"[INST] Contexte: {context}\nQuestion: {item['question']} [/INST]")
+        prompt = f"<|begin_of_text|><|start_header_id|>system<|end_header_id|>\nRéponds via le contexte.<|eot_id|><|start_header_id|>user<|end_header_id|>\nContexte: {context}\nQuestion: {item['question']}<|eot_id|><|start_header_id|>assistant<|end_header_id|>"
+        ans = llm.invoke(prompt)
         lat = time.time() - start
         
         f, r, p, c = evaluate_answer(context, item['question'], ans)
