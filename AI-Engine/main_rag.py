@@ -7,7 +7,7 @@ from database import hybrid_search
 # --- CONFIGURATION (Winner: Combo C) ---
 DB_DIR = "./db_vigogne_multilingual_e5"
 EMB_MODEL = "intfloat/multilingual-e5-large"
-LLM_MODEL = "vigogne-llama-3"
+LLM_MODEL = "mistral:v0.3"
 
 def run_rag():
     # 1. Initialize Models
