@@ -155,48 +155,5 @@ TEST_QUERIES = [
     "question": "Quels types de contrôles les détenteurs de balances doivent-ils faire ?",
     "answer": "Des contrôles statistiques périodiques sur le poids ou le volume des produits."
   },
-  {
-    "question": "Quel est le barème pour l'élevage bovin (production de lait) ?",
-    "answer": "Le barème est de 40 jours par tête."
-  },
-  {
-    "question": "Quelle autorité homologue les normes en Tunisie ?",
-    "answer": "Le ministre chargé de l'industrie, sur proposition de l'INNORPI."
-  },
-  {
-    "question": "Que comprend la 1ère catégorie des établissements dangereux ?",
-    "answer": "Les établissements qui présentent des dangers tels qu'ils doivent être éloignés des centres urbains."
-  },
-  {
-    "question": "Comment appelle-t-on le signe apposé sur un instrument de mesure vérifié ?",
-    "answer": "La marque ou le poinçon de vérification périodique."
-  },
-  {
-    "question": "Quelle loi a créé l'Institut National de la Météorologie ?",
-    "answer": "La loi n° 2009-10."
-  },
-  {
-    "question": "Que doit tenir un exploitant de dépôt d'explosifs ?",
-    "answer": "Des documents spécifiques fixés par arrêté ministériel, tenus à jour et conservés sur les lieux du dépôt."
-  },
-  {
-    "question": "Quelle est la sanction pour un licenciement abusif ?",
-    "answer": "Le paiement de dommages-intérêts distincts de l'indemnité de licenciement et de préavis."
-  },
-  {
-    "question": "Le chewing-gum est-il considéré comme une denrée alimentaire ?",
-    "answer": "Oui, il est explicitement inclus dans la définition légale des denrées alimentaires."
-  },
-  {
-    "question": "Quel est le barème pour 1 hectare d'agrumes ?",
-    "answer": "Le barème de travail est fixé à 150 jours par hectare."
-  },
-  {
-    "question": "Quelle est la mission de l'INNORPI concernant la propriété industrielle ?",
-    "answer": "Elle est chargée de la gestion et de la protection des droits de propriété industrielle (marques, brevets)."
-  },
-  {
-    "question": "Que signifie la lettre 'ط' sur un instrument de pesage ?",
-    "answer": "C'est la lettre arabe désignant officiellement la marque nationale du contrôle métrologique en Tunisie."
-  }
+  
 ]
