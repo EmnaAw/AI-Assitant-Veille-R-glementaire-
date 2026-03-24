@@ -154,5 +154,6 @@ TEST_QUERIES = [
   {
     "question": "Quels types de contrôles les détenteurs de balances doivent-ils faire ?",
     "answer": "Des contrôles statistiques périodiques sur le poids ou le volume des produits."
-  }
+  },
+  
 ]

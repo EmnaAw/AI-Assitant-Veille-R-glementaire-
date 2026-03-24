@@ -4,11 +4,11 @@ from database import hybrid_search
 from queries import TEST_QUERIES
 from judge import evaluate_answer
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 
 MODEL_TAG = "mistral:v0.3"
 EMB_MODEL = "BAAI/bge-m3"
-DB_PATH = "./db_mistral_bge_m3"
+DB_PATH = "./db_bge_m3"
 
 def run():
     emb = HuggingFaceEmbeddings(model_name=EMB_MODEL)
@@ -18,7 +18,7 @@ def run():
     scores_list = []
     print(f"\n--- ÉVALUATION EN COURS: {MODEL_TAG} + {EMB_MODEL} ---")
 
-    for item in TEST_QUERIES:
+    for i, item in enumerate(TEST_QUERIES):
         start = time.time()
         docs = hybrid_search(item['question'], db, k=2)
         context = "\n".join([d.page_content for d in docs])
@@ -26,6 +26,9 @@ def run():
         # Mistral [INST] Format
         ans = llm.invoke(f"[INST] Contexte: {context}\nQuestion: {item['question']} [/INST]")
         lat = time.time() - start
+        print(f"\n{'='*10} QUESTION {i+1} {'='*10}") 
+        print(f"Q: {item['question']}") 
+        print(f"A: {ans}")
         
         f, r, p, c = evaluate_answer(context, item['question'], ans)
         scores_list.append({'f': f, 'r': r, 'p': p, 'c': c, 't': lat})
