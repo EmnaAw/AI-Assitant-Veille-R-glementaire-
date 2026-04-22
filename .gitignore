@@ -1,4 +1,4 @@
-.venv/
+
 preventis_db/
 __pycache__/
 *.pyc
@@ -12,3 +12,9 @@ db_bge_fr/
 data/pdfs/
 *.pdf
 Thumbs.db
+
+.venv/
+Recommendation-system/.env
+Recommendation-system/venv
+Recommendation-system/chroma_db/
+Recommendation-system/output/
