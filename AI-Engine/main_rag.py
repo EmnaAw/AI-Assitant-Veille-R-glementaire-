@@ -33,6 +33,9 @@ EXACT_OBJECT_PATTERNS = {
     "fiche_entreprise": [
         "fiche d'entreprise",
         "fiche d’entreprise",
+        "fiche de l'entreprise",
+        "fiche de l’entreprise",
+        "fiche de lentreprise",
     ],
     "etude_dangers": [
         "étude de dangers",
@@ -73,8 +76,19 @@ def normalize_text(text: str) -> str:
     return text
 
 
-def detect_exact_object_keys(query: str) -> list[str]:
+def normalize_apostrophe_variants(query: str) -> str:
     q = normalize_text(query)
+
+    q = q.replace("de l'entreprise", "d'entreprise")
+    q = q.replace("de l’entreprise", "d'entreprise")
+    q = q.replace("de l entreprise", "d'entreprise")
+    q = q.replace("de lentreprise", "d'entreprise")
+
+    return q
+
+
+def detect_exact_object_keys(query: str) -> list[str]:
+    q = normalize_apostrophe_variants(query)
     found = []
 
     for key, phrases in EXACT_OBJECT_PATTERNS.items():
@@ -102,7 +116,8 @@ def _cosine(a: np.ndarray, b: np.ndarray) -> float:
 
 def classify_query(query: str, emb_model: HuggingFaceEmbeddings) -> dict | None:
     app_embeddings = _get_app_embeddings(emb_model)
-    query_vec = np.array(emb_model.embed_query(query))
+    retrieval_query = normalize_apostrophe_variants(query)
+    query_vec = np.array(emb_model.embed_query(retrieval_query))
 
     best_label, best_score = None, -1.0
     for label, vec in app_embeddings.items():
@@ -396,9 +411,13 @@ def run_rag():
         if meta_filter:
             print(f"  🏷  Filtre appliqué: {meta_filter}")
 
+        retrieval_query = normalize_apostrophe_variants(user_query)
+        if retrieval_query != normalize_text(user_query):
+            print(f"  ✍️ Requête normalisée: {retrieval_query}")
+
         print("🔍 Recherche hybride...")
         docs = hybrid_search(
-            query=user_query,
+            query=retrieval_query,
             vector_db=db,
             bm25_retriever=bm25,
             k=8,
@@ -417,7 +436,7 @@ def run_rag():
             print("  ↪ Fallback ciblé sans filtre app_id...")
 
             fallback_docs = hybrid_search(
-                query=user_query,
+                query=retrieval_query,
                 vector_db=db,
                 bm25_retriever=bm25,
                 k=8,
@@ -466,7 +485,6 @@ QUESTION : {user_query}
             print(f"❌ LLM error: {e}\n")
             continue
 
-        # Clean Output
         print("-" * 60)
         print(str(response).strip())
         print("-" * 60)
