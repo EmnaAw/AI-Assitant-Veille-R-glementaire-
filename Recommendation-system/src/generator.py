@@ -451,7 +451,7 @@ class Generator:
             "stream": False,
             "keep_alive": OLLAMA_KEEP_ALIVE,
             "options": {
-                "temperature": 0,
+                "temperature": 0.2,
                 "num_ctx": OLLAMA_NUM_CTX,
                 "num_predict": OLLAMA_NUM_PREDICT,
             },

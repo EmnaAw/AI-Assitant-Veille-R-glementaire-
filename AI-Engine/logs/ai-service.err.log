@@ -1,0 +1,203 @@
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-reranker-v2-m3/resolve/main/config.json (Caused by ProxyError(\'Unable to connect to proxy\', NewConnectionError("HTTPSConnection(host=\'127.0.0.1\', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")))'), '(Request ID: 543e091f-fa42-44bc-bcd8-067f2546f9bc)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-reranker-v2-m3/resolve/main/config.json
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-reranker-v2-m3/resolve/main/config.json (Caused by ProxyError(\'Unable to connect to proxy\', NewConnectionError("HTTPSConnection(host=\'127.0.0.1\', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")))'), '(Request ID: 70520804-b913-4069-8778-227a45a6be93)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-reranker-v2-m3/resolve/main/config.json
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-reranker-v2-m3/resolve/main/config.json (Caused by ProxyError(\'Unable to connect to proxy\', NewConnectionError("HTTPSConnection(host=\'127.0.0.1\', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")))'), '(Request ID: 6585c68b-c262-42d6-8897-4220ec81870c)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-reranker-v2-m3/resolve/main/config.json
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-reranker-v2-m3/resolve/main/config.json (Caused by ProxyError(\'Unable to connect to proxy\', NewConnectionError("HTTPSConnection(host=\'127.0.0.1\', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")))'), '(Request ID: 5a2dd0cc-9b53-4070-b58c-f09870f1d65f)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-reranker-v2-m3/resolve/main/config.json
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-reranker-v2-m3/resolve/main/config.json (Caused by ProxyError(\'Unable to connect to proxy\', NewConnectionError("HTTPSConnection(host=\'127.0.0.1\', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")))'), '(Request ID: d2420a49-b276-4e42-ad93-3154b7d8a138)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-reranker-v2-m3/resolve/main/config.json
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-reranker-v2-m3/resolve/main/config.json (Caused by ProxyError(\'Unable to connect to proxy\', NewConnectionError("HTTPSConnection(host=\'127.0.0.1\', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")))'), '(Request ID: 94e632f5-711e-496e-a580-daf0ede32ecf)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-reranker-v2-m3/resolve/main/config.json
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-reranker-v2-m3/resolve/main/tokenizer_config.json (Caused by ProxyError(\'Unable to connect to proxy\', NewConnectionError("HTTPSConnection(host=\'127.0.0.1\', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")))'), '(Request ID: b641e638-f333-42d3-adea-abf86a2d874a)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-reranker-v2-m3/resolve/main/tokenizer_config.json
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-reranker-v2-m3/resolve/main/tokenizer_config.json (Caused by ProxyError(\'Unable to connect to proxy\', NewConnectionError("HTTPSConnection(host=\'127.0.0.1\', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")))'), '(Request ID: 50acb02e-bc6c-4594-afe0-14d5209363d1)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-reranker-v2-m3/resolve/main/tokenizer_config.json
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-reranker-v2-m3/resolve/main/tokenizer_config.json (Caused by ProxyError(\'Unable to connect to proxy\', NewConnectionError("HTTPSConnection(host=\'127.0.0.1\', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")))'), '(Request ID: aa4d7107-af26-4e1b-b98f-c156fb3bece2)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-reranker-v2-m3/resolve/main/tokenizer_config.json
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-reranker-v2-m3/resolve/main/tokenizer_config.json (Caused by ProxyError(\'Unable to connect to proxy\', NewConnectionError("HTTPSConnection(host=\'127.0.0.1\', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")))'), '(Request ID: 76b4e099-2e8e-465e-be18-129fa3205569)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-reranker-v2-m3/resolve/main/tokenizer_config.json
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-reranker-v2-m3/resolve/main/tokenizer_config.json (Caused by ProxyError(\'Unable to connect to proxy\', NewConnectionError("HTTPSConnection(host=\'127.0.0.1\', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")))'), '(Request ID: 0fb7854f-6c34-46a5-b87e-61bae16a85ac)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-reranker-v2-m3/resolve/main/tokenizer_config.json
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-reranker-v2-m3/resolve/main/tokenizer_config.json (Caused by ProxyError(\'Unable to connect to proxy\', NewConnectionError("HTTPSConnection(host=\'127.0.0.1\', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")))'), '(Request ID: 17f71825-5170-421c-aa72-2332fb482930)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-reranker-v2-m3/resolve/main/tokenizer_config.json
+Traceback (most recent call last):
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\urllib3\connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\urllib3\connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\urllib3\connection.py", line 219, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\urllib3\util\retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-v2-m3 (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\uvicorn\__main__.py", line 4, in <module>
+    uvicorn.main()
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\click\core.py", line 1485, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\click\core.py", line 1406, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\click\core.py", line 1269, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\click\core.py", line 824, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\uvicorn\main.py", line 424, in main
+    run(
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\uvicorn\main.py", line 594, in run
+    server.run()
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\uvicorn\server.py", line 71, in serve
+    await self._serve(sockets)
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\uvicorn\server.py", line 78, in _serve
+    config.load()
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\uvicorn\config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\uvicorn\importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MSI\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\AI-Engine\service_api.py", line 23, in <module>
+    from rag_service import RAGService  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\AI-Engine\rag_service.py", line 10, in <module>
+    from database import build_bm25_index, hybrid_search
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\AI-Engine\database.py", line 6, in <module>
+    RERANKER = CrossEncoder("BAAI/bge-reranker-v2-m3", max_length=512)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\sentence_transformers\cross_encoder\util.py", line 39, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\sentence_transformers\cross_encoder\CrossEncoder.py", line 196, in __init__
+    self.tokenizer: PreTrainedTokenizer = AutoTokenizer.from_pretrained(
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\transformers\models\auto\tokenization_auto.py", line 1156, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\transformers\tokenization_utils_base.py", line 2113, in from_pretrained
+    return cls._from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\transformers\tokenization_utils_base.py", line 2395, in _from_pretrained
+    tokenizer = cls._patch_mistral_regex(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\transformers\tokenization_utils_base.py", line 2442, in _patch_mistral_regex
+    _is_local or (not _is_local and is_base_mistral(pretrained_model_name_or_path))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\transformers\tokenization_utils_base.py", line 2432, in is_base_mistral
+    model = model_info(model_id)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\huggingface_hub\hf_api.py", line 2660, in model_info
+    r = get_session().get(path, headers=headers, timeout=timeout, params=params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\huggingface_hub\utils\_http.py", line 96, in send
+    return super().send(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\requests\adapters.py", line 671, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-v2-m3 (Caused by ProxyError(\'Unable to connect to proxy\', NewConnectionError("HTTPSConnection(host=\'127.0.0.1\', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")))'), '(Request ID: 676147f6-68f0-4182-9197-4a553223684c)')
+INFO:     Started server process [37592]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started server process [18876]
+INFO:     Waiting for application startup.
+Could not cache non-existence of file. Will ignore error and continue. Error: [Errno 13] Permission denied: 'C:\\Users\\MSI\\.cache\\huggingface\\hub\\models--BAAI--bge-m3\\.no_exist\\5617a9f61b028005a4858fdac845db406aefb181\\adapter_config.json'
+Failed to initialize RAG service during startup
+Traceback (most recent call last):
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\AI-Engine\service_api.py", line 80, in startup_event
+    rag_service.initialize()
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\AI-Engine\rag_service.py", line 96, in initialize
+    self.db = Chroma(persist_directory=self.db_dir, embedding_function=self.embeddings)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\langchain_chroma\vectorstores.py", line 374, in __init__
+    self._client = chromadb.PersistentClient(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\chromadb\__init__.py", line 226, in PersistentClient
+    return ClientCreator(tenant=tenant, database=database, settings=settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\chromadb\api\client.py", line 66, in __init__
+    super().__init__(settings=settings)
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\chromadb\api\shared_system_client.py", line 22, in __init__
+    SharedSystemClient._create_system_if_not_exists(self._identifier, settings)
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\chromadb\api\shared_system_client.py", line 35, in _create_system_if_not_exists
+    new_system.start()
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\chromadb\config.py", line 475, in start
+    component.start()
+  File "D:\PFE\AI-Assitant-Veille-R-glementaire-\.venv\Lib\site-packages\chromadb\api\rust.py", line 121, in start
+    self.bindings = chromadb_rust_bindings.Bindings(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+chromadb.errors.InternalError: error returned from database: (code: 2570) disk I/O error
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Could not cache non-existence of file. Will ignore error and continue. Error: [Errno 13] Permission denied: 'C:\\Users\\MSI\\.cache\\huggingface\\hub\\models--BAAI--bge-m3\\.no_exist\\5617a9f61b028005a4858fdac845db406aefb181\\adapter_config.json'
