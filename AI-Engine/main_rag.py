@@ -1,4 +1,7 @@
 import os
+os.environ.setdefault("HF_HUB_OFFLINE", "1")
+os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
+
 import re
 import unicodedata
 import numpy as np
@@ -10,6 +13,10 @@ from database import hybrid_search, build_bm25_index
 DB_DIR = "./db_vigogne_bge_m3"
 EMB_MODEL = "BAAI/bge-m3"
 LLM_MODEL = "vig3:latest"
+MAX_GENERATION_CHUNK_CHARS = int(os.getenv("MAX_GENERATION_CHUNK_CHARS", "1400"))
+OLLAMA_NUM_CTX = int(os.getenv("OLLAMA_NUM_CTX", "2048"))
+OLLAMA_NUM_PREDICT = int(os.getenv("OLLAMA_NUM_PREDICT", "384"))
+OLLAMA_NUM_GPU = int(os.getenv("OLLAMA_NUM_GPU", "24"))
 
 APP_ID_MAP = {
     "QUALITÉ": "1",
@@ -273,6 +280,40 @@ def filter_and_rank_docs(user_query: str, docs: list, top_k: int = 3) -> list:
     return ranked[:top_k]
 
 
+def repair_answer_format(answer: str) -> str:
+    text = str(answer or "").replace("\r\n", "\n").replace("\r", "\n").strip()
+    if not text:
+        return text
+
+    match = re.search(r"(?im)^\s*(?:#{1,6}\s*)?(?:r[ée]ponse|reponse)\s*:", text)
+    if match:
+        text = text[match.start():].strip()
+
+    text = re.sub(r"(?im)^\s*(?:#{1,6}\s*)?(?:r[ée]ponse|reponse)\s*:?", "Réponse:", text, count=1)
+    text = re.sub(r"(?im)^\s*(?:#{1,6}\s*)?base\s+l[ée]gale\s*:?", "Base légale:", text)
+
+    lines = text.split("\n")
+    cleaned = []
+    in_base = False
+    saw_base_bullet = False
+    for line in lines:
+        stripped = line.strip()
+        if re.match(r"(?i)^base\s+l[ée]gale\s*:", stripped):
+            in_base = True
+            cleaned.append("Base légale:")
+            continue
+        if in_base:
+            if stripped.startswith("-"):
+                saw_base_bullet = True
+                cleaned.append(line.rstrip())
+                continue
+            if saw_base_bullet:
+                break
+        cleaned.append(line.rstrip())
+
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(cleaned)).strip()
+
+
 SYSTEM_PROMPT = """### Instruction:
 Tu es un assistant juridique spécialisé en réglementation tunisienne (HSE, qualité, environnement, sécurité au travail).
 Tu travailles pour une entreprise qui fait de la veille réglementaire.
@@ -363,10 +404,69 @@ Base légale:
 """
 
 
+SYSTEM_PROMPT += """
+
+REGLES COMPLEMENTAIRES POUR LES SEUILS ET CONDITIONS:
+- Si une meme source contient plusieurs cas, seuils, conditions ou tranches d'effectif qui repondent a la question, garde tous les cas utiles.
+- Pour une question sur l'effectif, le nombre de travailleurs, une categorie ou une condition introduite par "Si", ne t'arrete jamais au premier cas trouve.
+- Dans la section "Base legale", tu peux citer plusieurs puces avec la meme source si chaque puce justifie une condition differente.
+- Ne fusionne pas deux seuils differents en une seule regle.
+
+Exemple attendu:
+Question: Qui doit exercer la fonction du responsable securite selon l'effectif ?
+Reponse:
+Si l'effectif est de 500 travailleurs et plus, un ingenieur en plein temps exerce la fonction du responsable securite. Si l'effectif est de 40 employes ou plus et inferieur ou egal a 500, un ingenieur ou un technicien superieur l'exerce a plein temps en sus de son travail personnel.
+
+Base legale:
+- [Decret n°2000-1989 (2000)] : Si l'effectif est de 500 travailleurs et plus, un ingenieur en plein temps exerce la fonction du responsable securite.
+- [Decret n°2000-1989 (2000)] : Si l'effectif est de 40 employes ou plus et inferieur ou egal a 500, un ingenieur ou un technicien superieur l'exerce a plein temps en sus de son travail personnel.
+"""
+
+
+SYSTEM_PROMPT = """Tu es un assistant juridique specialise en reglementation tunisienne HSE.
+Tu reponds uniquement a partir du CONTEXTE JURIDIQUE fourni.
+
+Regles absolues:
+- N'invente jamais un acteur, une obligation, un seuil, un chiffre, un numero de texte, un article ou une date.
+- Si l'information n'est pas explicitement dans le contexte, reponds: Je n'ai pas l'information dans le contexte juridique fourni.
+- Ignore les extraits seulement proches du sujet mais qui ne repondent pas exactement a la question.
+- Si un texte est abroge, mentionne-le avec ABROGE.
+
+Pertinence:
+- La reponse doit viser exactement l'objet juridique demande.
+- Si la question demande "qui", identifie l'acteur exact designe dans le contexte.
+- Si la reponse depend d'un effectif, d'un seuil, d'une categorie ou d'une condition introduite par "Si", reprends toutes les conditions explicitement presentes dans le contexte qui repondent a la question.
+- Ne t'arrete pas au premier cas lorsqu'une meme source contient plusieurs seuils ou tranches d'effectif.
+
+Format obligatoire:
+Reponse:
+<reponse directe en 1 ou 2 phrases. Utilise plusieurs phrases si plusieurs conditions sont necessaires.>
+
+Base legale:
+- [Type n°Numero (Annee)] : <justification courte en une phrase>
+
+Regles de base legale:
+- Cite seulement les sources directement utiles.
+- Tu peux citer plusieurs puces avec la meme source si chaque puce justifie une condition differente.
+- Chaque puce doit contenir une seule condition ou regle.
+- N'ajoute aucun texte avant "Reponse:" ni apres la derniere puce de "Base legale:".
+
+Exemple:
+Question: Qui doit exercer la fonction du responsable securite selon l'effectif ?
+Reponse:
+Si l'effectif est de 500 travailleurs et plus, un ingenieur en plein temps exerce la fonction du responsable securite. Si l'effectif est de 40 employes ou plus et inferieur ou egal a 500, un ingenieur ou un technicien superieur l'exerce a plein temps en sus de son travail personnel.
+
+Base legale:
+- [Decret n°2000-1989 (2000)] : Si l'effectif est de 500 travailleurs et plus, un ingenieur en plein temps exerce la fonction du responsable securite.
+- [Decret n°2000-1989 (2000)] : Si l'effectif est de 40 employes ou plus et inferieur ou egal a 500, un ingenieur ou un technicien superieur l'exerce a plein temps en sus de son travail personnel.
+"""
+
+
 def run_rag():
     print(f"--- Initializing: {LLM_MODEL} + BGE-M3 ---")
     emb = HuggingFaceEmbeddings(
         model_name=EMB_MODEL,
+        model_kwargs={"device": "cpu", "local_files_only": True},
         encode_kwargs={"normalize_embeddings": True},
     )
 
@@ -379,6 +479,9 @@ def run_rag():
         model=LLM_MODEL,
         base_url="http://localhost:11434",
         temperature=0,
+        num_ctx=OLLAMA_NUM_CTX,
+        num_predict=OLLAMA_NUM_PREDICT,
+        num_gpu=OLLAMA_NUM_GPU,
     )
 
     print("⚙ Building BM25 index (one-time)...")
@@ -462,7 +565,10 @@ def run_rag():
 
         for i, doc in enumerate(docs):
             header = build_source_header(doc.metadata, i)
-            context_parts.append(f"{header}\n{doc.page_content}")
+            clipped_content = doc.page_content.strip()
+            if len(clipped_content) > MAX_GENERATION_CHUNK_CHARS:
+                clipped_content = clipped_content[:MAX_GENERATION_CHUNK_CHARS].rsplit(" ", 1)[0].strip()
+            context_parts.append(f"{header}\n{clipped_content}")
 
             label = build_source_label(doc.metadata)
             if label and label not in sources_seen:
@@ -483,10 +589,15 @@ QUESTION : {user_query}
             response = llm.invoke(prompt)
         except Exception as e:
             print(f"❌ LLM error: {e}\n")
+            if "runner process has terminated" in str(e).lower():
+                print(
+                    "Ollama a probablement manque de VRAM. "
+                    "Essayez de redemarrer Ollama, ou baissez OLLAMA_NUM_CTX/OLLAMA_NUM_GPU.\n"
+                )
             continue
 
         print("-" * 60)
-        print(str(response).strip())
+        print(repair_answer_format(str(response)))
         print("-" * 60)
 
         if sources_seen:

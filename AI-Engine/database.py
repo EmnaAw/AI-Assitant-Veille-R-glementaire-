@@ -1,9 +1,37 @@
+import os
 import re
+
+os.environ.setdefault("HF_HUB_OFFLINE", "1")
+os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
+
 from langchain_community.retrievers import BM25Retriever
 from langchain_core.documents import Document
 from sentence_transformers import CrossEncoder
 
-RERANKER = CrossEncoder("BAAI/bge-reranker-v2-m3", max_length=512)
+RERANKER_MODEL = "BAAI/bge-reranker-v2-m3"
+RERANKER = None
+RERANKER_LOAD_ERROR = None
+
+
+def get_reranker():
+    global RERANKER, RERANKER_LOAD_ERROR
+
+    if RERANKER is not None or RERANKER_LOAD_ERROR is not None:
+        return RERANKER
+
+    try:
+        RERANKER = CrossEncoder(
+            RERANKER_MODEL,
+            max_length=512,
+            local_files_only=True,
+            device="cpu",
+        )
+    except Exception as exc:
+        RERANKER_LOAD_ERROR = str(exc)
+        print(f"Reranker unavailable locally; continuing without cross-encoder reranking: {exc}")
+        RERANKER = None
+
+    return RERANKER
 
 FRENCH_LEGAL_STOPWORDS = {
     "le", "la", "les", "de", "du", "des", "un", "une", "et", "en", "à", "au", "aux",
@@ -167,8 +195,12 @@ def hybrid_search(
     if not fused:
         return []
 
-    pairs = [(query, doc.page_content) for doc in fused]
-    scores = RERANKER.predict(pairs, show_progress_bar=False)
+    reranker = get_reranker()
+    if reranker is not None:
+        pairs = [(query, doc.page_content) for doc in fused]
+        scores = reranker.predict(pairs, show_progress_bar=False)
+    else:
+        scores = [1.0 / (rank + 1) for rank, _ in enumerate(fused)]
 
     ranked = []
     for score, doc in zip(scores, fused):
