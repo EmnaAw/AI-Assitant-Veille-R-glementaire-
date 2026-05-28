@@ -16,6 +16,13 @@ class GapTypeResult:
 
 
 GAP_TYPE_RULES: dict[str, tuple[tuple[str, float], ...]] = {
+    "nomination_responsable_securite": (
+        (r"\bfiche nominative\b.*\bresponsable securite\b", 0.99),
+        (r"\bfiche nomination\b.*\bresponsable securite\b", 0.99),
+        (r"\bnomination\b.*\bresponsable securite\b", 0.98),
+        (r"\bresponsable securite\b.*\bnomm\w*\b", 0.94),
+        (r"\bresponsable sst\b.*\bnomm\w*\b", 0.94),
+    ),
     "equipe_role_securite": (
         (r"\bequipe de securite\b", 0.98),
         (r"\bchef d equipe\b", 0.70),

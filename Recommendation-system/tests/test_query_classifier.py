@@ -23,3 +23,10 @@ def test_record_gap_type_uses_nc_and_plan_context():
     )
 
     assert result.gap_type == "autorisation_administratif"
+
+
+def test_query_classifier_detects_responsable_securite_nomination():
+    result = classify_gap_type("nomination responsable securite")
+
+    assert result.gap_type == "nomination_responsable_securite"
+    assert result.confidence >= 0.9

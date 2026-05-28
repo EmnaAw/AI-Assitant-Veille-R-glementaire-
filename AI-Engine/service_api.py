@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import sys
+import os
 import logging
 from pathlib import Path
 from collections import OrderedDict
@@ -28,10 +29,6 @@ if str(CURRENT_DIR) not in sys.path:
 if str(RECOMMENDATION_ROOT) not in sys.path:
     sys.path.insert(0, str(RECOMMENDATION_ROOT))
 
-from rag_service import RAGService  # noqa: E402
-from src.recommendation_service import RecommendationService  # noqa: E402
-
-
 class ConversationMessage(BaseModel):
     role: Literal["user", "assistant", "system"] = "user"
     content: str = Field(min_length=1)
@@ -40,7 +37,7 @@ class ConversationMessage(BaseModel):
 class AIRequest(BaseModel):
     message: str = Field(min_length=1)
     conversation_history: list[ConversationMessage] = Field(default_factory=list)
-    top_k: int = 3
+    top_k: int = Field(default=3, ge=1, le=6)
 
 
 class OrchestratedAIRequest(AIRequest):
@@ -78,6 +75,7 @@ INSTANT_REPLIES = {
     "merci": "Avec plaisir. Je reste disponible si vous avez une autre question.",
     "merci beaucoup": "Avec plaisir. Je reste disponible si vous avez une autre question.",
 }
+AI_PRELOAD_SERVICES = os.getenv("AI_PRELOAD_SERVICES", "0").lower() in {"1", "true", "yes"}
 PROMPT_STOP_WORDS = {
     "the", "and", "for", "are", "you", "please", "tell", "about", "what", "which", "how",
     "est", "sont", "une", "des", "les", "aux", "avec", "pour", "dans", "sur", "par",
@@ -98,9 +96,27 @@ async def validation_exception_handler(
         },
     )
 
-rag_service = RAGService()
-recommendation_service = RecommendationService()
+rag_service = None
+recommendation_service = None
 rag_startup_error: str | None = None
+
+
+def get_rag_service():
+    global rag_service
+    if rag_service is None:
+        from rag_service import RAGService  # noqa: WPS433
+
+        rag_service = RAGService()
+    return rag_service
+
+
+def get_recommendation_service():
+    global recommendation_service
+    if recommendation_service is None:
+        from src.recommendation_service import RecommendationService  # noqa: WPS433
+
+        recommendation_service = RecommendationService()
+    return recommendation_service
 
 
 def _history_as_dicts(history: list[ConversationMessage]) -> list[dict[str, Any]]:
@@ -114,6 +130,7 @@ def _normalize_message(value: str) -> str:
     normalized = unicodedata.normalize("NFD", value or "")
     normalized = "".join(char for char in normalized if unicodedata.category(char) != "Mn")
     normalized = normalized.lower()
+    normalized = normalized.replace("’", "'")
     normalized = re.sub(r"[^\w\s']", " ", normalized)
     normalized = re.sub(r"\s+", " ", normalized)
     return normalized.strip()
@@ -273,31 +290,50 @@ def _meaningful_tokens(normalized: str) -> set[str]:
 
 @app.on_event("startup")
 def startup_event() -> None:
+    logger.info("AI Engine API started. RAG and recommendation services load lazily.")
+    if not AI_PRELOAD_SERVICES:
+        return
+
     global rag_startup_error
     try:
-        rag_service.initialize()
-        rag_startup_error = None
+        get_recommendation_service()
+        service = get_rag_service()
+        service.initialize()
+        logger.info("AI Engine services preloaded successfully.")
     except Exception as exc:
         rag_startup_error = str(exc)
-        logger.exception("Failed to initialize RAG service during startup")
+        logger.exception("AI Engine preload failed; service will retry lazily on request.")
 
 
 @app.get("/ai/health")
 def health() -> dict[str, Any]:
-    recommendation_health: dict[str, Any]
-    try:
-        recommendation_health = recommendation_service.health()
-    except Exception as exc:
+    if recommendation_service is None:
         recommendation_health = {
             "mode": "recommendation",
             "healthy": False,
-            "error": str(exc),
+            "initialized": False,
         }
+    else:
+        try:
+            recommendation_health = recommendation_service.health()
+        except Exception as exc:
+            recommendation_health = {
+                "mode": "recommendation",
+                "healthy": False,
+                "error": str(exc),
+            }
 
-    rag_health = rag_service.health()
-    if rag_startup_error:
-        rag_health["healthy"] = False
-        rag_health["startup_error"] = rag_startup_error
+    if rag_service is None:
+        rag_health = {
+            "mode": "rag",
+            "healthy": False,
+            "initialized": False,
+        }
+    else:
+        rag_health = rag_service.health()
+        if rag_startup_error:
+            rag_health["healthy"] = False
+            rag_health["startup_error"] = rag_startup_error
 
     rag_healthy = bool(rag_health.get("healthy", False))
     recommendation_healthy = bool(recommendation_health.get("healthy", False))
@@ -314,7 +350,8 @@ def health() -> dict[str, Any]:
 @app.post("/ai/rag/respond")
 def rag_respond(request: AIRequest) -> dict[str, Any]:
     try:
-        result = rag_service.answer(
+        service = get_rag_service()
+        result = service.answer(
             question=request.message,
             conversation_history=_history_as_dicts(request.conversation_history),
             top_k=request.top_k,
@@ -328,7 +365,8 @@ def rag_respond(request: AIRequest) -> dict[str, Any]:
 @app.post("/ai/recommendation/respond")
 def recommendation_respond(request: AIRequest) -> dict[str, Any]:
     try:
-        result = recommendation_service.recommend(
+        service = get_recommendation_service()
+        result = service.recommend(
             query=request.message,
             conversation_history=_history_as_dicts(request.conversation_history),
             top_k=request.top_k,

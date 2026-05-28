@@ -163,6 +163,18 @@ class Generator:
                 "en la constituant, en définissant les personnes qui la composent et en organisant son fonctionnement."
             )
 
+        if (
+            gap_type == "nomination_responsable_securite"
+            or (
+                "responsable securite" in lowered_plan
+                and ("fiche nomination" in lowered_plan or "fiche nominative" in lowered_plan)
+            )
+        ):
+            return (
+                "Cette action vise à formaliser la nomination du responsable sécurité en préparant sa fiche, "
+                "en précisant ses missions et en la faisant approuver par l'inspection de médecine du travail."
+            )
+
         if gap_type == "registre_securite" or ("registre" in lowered_plan and "securite" in lowered_plan):
             return (
                 "Cette action vise à corriger l'absence ou le défaut de suivi du registre de sécurité "
@@ -292,6 +304,14 @@ class Generator:
             return (
                 "Constituer une équipe de sécurité, désigner ses membres "
                 "et assurer les formations obligatoires."
+            )
+        if (
+            "responsable securite" in plan
+            and ("fiche nominative" in plan or "fiche nomination" in plan or "inspection de medecine" in plan)
+        ):
+            return (
+                "Préparer la fiche nominative du responsable sécurité, y préciser ses missions "
+                "et la faire approuver par l'inspection de médecine du travail."
             )
         if "registre" in plan and "securite" in plan:
             return "Mettre en place et tenir à jour un registre de sécurité."

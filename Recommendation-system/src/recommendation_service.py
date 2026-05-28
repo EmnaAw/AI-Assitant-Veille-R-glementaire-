@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import re
+import unicodedata
 from typing import Any
 
 from .config import DATA_PATH, DEFAULT_SCORE_THRESHOLD, TOP_K
@@ -21,16 +23,41 @@ FOLLOW_UP_MARKERS = {
     "et pour ce cas",
 }
 
+VAGUE_FOLLOW_UP_TOKENS = {
+    "aussi",
+    "ca",
+    "cas",
+    "ce",
+    "cela",
+    "celle-ci",
+    "celui-ci",
+    "cette",
+    "et",
+    "idem",
+    "meme",
+    "non",
+    "oui",
+    "pareil",
+    "pour",
+}
+
 
 def _normalize_follow_up_text(text: str) -> str:
-    return " ".join(text.lower().strip().split())
+    value = unicodedata.normalize("NFKD", str(text or ""))
+    value = "".join(char for char in value if not unicodedata.combining(char))
+    value = value.lower().strip()
+    value = re.sub(r"[^\w\s'-]", " ", value)
+    value = re.sub(r"\s+", " ", value)
+    return value.strip()
 
 
 def _needs_previous_user_context(query: str) -> bool:
     normalized = _normalize_follow_up_text(query)
-    if len(normalized.split()) <= 4:
+    if normalized in FOLLOW_UP_MARKERS:
         return True
-    return normalized in FOLLOW_UP_MARKERS
+
+    tokens = set(normalized.split())
+    return bool(tokens) and len(tokens) <= 4 and tokens <= VAGUE_FOLLOW_UP_TOKENS
 
 
 class RecommendationService:

@@ -4,6 +4,7 @@ from dataclasses import asdict, dataclass
 from typing import Any
 import os
 import re
+import time
 
 os.environ.setdefault("HF_HUB_OFFLINE", "1")
 os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
@@ -16,8 +17,9 @@ from database import build_bm25_index, hybrid_search
 from main_rag import (
     DB_DIR,
     EMB_MODEL,
+    EMBEDDING_LOCAL_FILES_ONLY,
     LLM_MODEL,
-    SYSTEM_PROMPT,
+    OLLAMA_BASE_URL,
     build_source_header,
     build_source_label,
     classify_query,
@@ -64,8 +66,6 @@ SUMMARY_STOPWORDS = {
     "de", "la", "le", "un", "il", "elle", "doit", "doivent", "concerne",
     "concernant", "selon", "article", "texte", "reglementation",
 }
-
-
 @dataclass
 class RetrievedChunk:
     source_header: str
@@ -163,7 +163,7 @@ def _meaningful_terms(text: str) -> set[str]:
 def _best_relevant_sentence(question: str, text: str) -> str | None:
     question_terms = _meaningful_terms(question)
     cleaned = re.sub(r"\s+", " ", text or "").strip()
-    if not cleaned:
+    if not cleaned or not question_terms:
         return None
 
     sentences = re.split(r"(?<=[.!?])\s+|(?=\s+-\s+Article\s+\d+)", cleaned)
@@ -176,10 +176,11 @@ def _best_relevant_sentence(question: str, text: str) -> str | None:
         scored.append((overlap, candidate))
 
     scored.sort(key=lambda item: (item[0], len(item[1])), reverse=True)
-    if scored and scored[0][0] >= 1:
+    minimum_overlap = 1 if len(question_terms) <= 2 else 2
+    if scored and scored[0][0] >= minimum_overlap:
         return scored[0][1]
 
-    return _first_relevant_sentence(text)
+    return None
 
 
 def _is_multi_condition_question(question: str) -> bool:
@@ -202,7 +203,7 @@ class RAGService:
         db_dir: str = DB_DIR,
         embedding_model: str = EMB_MODEL,
         llm_model: str = LLM_MODEL,
-        ollama_base_url: str = "http://localhost:11434",
+        ollama_base_url: str = OLLAMA_BASE_URL,
     ):
         self.db_dir = db_dir
         self.embedding_model = embedding_model
@@ -217,12 +218,15 @@ class RAGService:
         if self.embeddings is not None and self.db is not None and self.llm is not None and self.bm25 is not None:
             return
 
+        started_at = time.perf_counter()
         self.embeddings = HuggingFaceEmbeddings(
             model_name=self.embedding_model,
-            model_kwargs={"device": "cpu", "local_files_only": True},
+            model_kwargs={"device": "cpu", "local_files_only": EMBEDDING_LOCAL_FILES_ONLY},
             encode_kwargs={"normalize_embeddings": True},
         )
+        embeddings_ready_at = time.perf_counter()
         self.db = Chroma(persist_directory=self.db_dir, embedding_function=self.embeddings)
+        chroma_ready_at = time.perf_counter()
         self.llm = OllamaLLM(
             model=self.llm_model,
             base_url=self.ollama_base_url,
@@ -233,7 +237,18 @@ class RAGService:
             keep_alive="10m",
             sync_client_kwargs={"timeout": 45},
         )
+        llm_ready_at = time.perf_counter()
         self.bm25 = build_bm25_index(self.db)
+        finished_at = time.perf_counter()
+        print(
+            "RAG init timings: "
+            f"embeddings={embeddings_ready_at - started_at:.2f}s, "
+            f"chroma={chroma_ready_at - embeddings_ready_at:.2f}s, "
+            f"llm_client={llm_ready_at - chroma_ready_at:.2f}s, "
+            f"bm25={finished_at - llm_ready_at:.2f}s, "
+            f"total={finished_at - started_at:.2f}s",
+            flush=True,
+        )
 
     def health(self) -> dict[str, Any]:
         initialized = all(
@@ -253,7 +268,9 @@ class RAGService:
         assert self.embeddings is not None
 
         clauses = []
-        domain_filter = classify_query(question, self.embeddings)
+        domain_filter = None
+        if not detect_exact_object_keys(question):
+            domain_filter = classify_query(question, self.embeddings)
         if domain_filter:
             clauses.append(domain_filter)
 
@@ -277,8 +294,10 @@ class RAGService:
         assert self.db is not None
         assert self.bm25 is not None
 
+        started_at = time.perf_counter()
         retrieval_query = normalize_apostrophe_variants(question)
         metadata_filter, domain_filter = self._build_metadata_filter(question)
+        classified_at = time.perf_counter()
 
         docs = hybrid_search(
             query=retrieval_query,
@@ -288,11 +307,28 @@ class RAGService:
             candidate_k=candidate_k,
             metadata_filter=metadata_filter,
         )
+        hybrid_done_at = time.perf_counter()
         docs = filter_and_rank_docs(question, docs, top_k=top_k)
+        filtered_at = time.perf_counter()
 
-        exact_object_keys = detect_exact_object_keys(question)
-        has_exact_match = any(doc_matches_exact_object(question, doc) for doc in docs) if docs else False
         used_fallback = False
+        exact_object_keys = detect_exact_object_keys(question)
+
+        if not docs and domain_filter:
+            used_fallback = True
+            fallback_filter = {"statut": {"$ne": "abrogÃ©"}} if not is_historical_query(question) else {}
+            docs = hybrid_search(
+                query=retrieval_query,
+                vector_db=self.db,
+                bm25_retriever=self.bm25,
+                k=8,
+                candidate_k=candidate_k,
+                metadata_filter=fallback_filter,
+            )
+            docs = filter_and_rank_docs(question, docs, top_k=top_k)
+            metadata_filter = fallback_filter
+
+        has_exact_match = any(doc_matches_exact_object(question, doc) for doc in docs) if docs else False
 
         if exact_object_keys and not has_exact_match:
             used_fallback = True
@@ -310,6 +346,18 @@ class RAGService:
             if fallback_docs and any(doc_matches_exact_object(question, doc) for doc in fallback_docs):
                 docs = fallback_docs
                 metadata_filter = fallback_filter
+
+        finished_at = time.perf_counter()
+        print(
+            "RAG retrieve timings: "
+            f"classify={classified_at - started_at:.2f}s, "
+            f"hybrid={hybrid_done_at - classified_at:.2f}s, "
+            f"filter={filtered_at - hybrid_done_at:.2f}s, "
+            f"fallback={finished_at - filtered_at:.2f}s, "
+            f"total={finished_at - started_at:.2f}s, "
+            f"docs={len(docs)}",
+            flush=True,
+        )
 
         return docs, {
             "retrieval_query": retrieval_query,
@@ -358,7 +406,7 @@ class RAGService:
                 f"{_wrap_untrusted_block('CONVERSATION', conversation_context)}\n\n"
             )
 
-        return f"""{SYSTEM_PROMPT}
+        return f"""{COMPACT_SYSTEM_PROMPT}
 {PROMPT_INJECTION_GUARD}
 
 {history_block}CONTEXTE JURIDIQUE ({len(chunks)} extraits recuperes) :
@@ -562,10 +610,12 @@ QUESTION UTILISATEUR :
         top_k: int = 3,
         candidate_k: int = 24,
     ) -> RAGServiceResponse:
+        started_at = time.perf_counter()
         self.initialize()
         assert self.llm is not None
 
         docs, retrieval = self.retrieve(question, top_k=top_k, candidate_k=candidate_k)
+        retrieved_at = time.perf_counter()
         exact_object_keys = retrieval["exact_object_keys"]
 
         if not docs:
@@ -605,6 +655,11 @@ QUESTION UTILISATEUR :
             exact_object_keys=exact_object_keys,
         )
         if fast_answer:
+            print(
+                f"RAG answer timings: retrieval={retrieved_at - started_at:.2f}s, "
+                f"total={time.perf_counter() - started_at:.2f}s, path=fast",
+                flush=True,
+            )
             return RAGServiceResponse(
                 mode="rag",
                 question=question,
@@ -625,6 +680,11 @@ QUESTION UTILISATEUR :
             exact_object_keys=exact_object_keys,
         )
         if source_summary_answer:
+            print(
+                f"RAG answer timings: retrieval={retrieved_at - started_at:.2f}s, "
+                f"total={time.perf_counter() - started_at:.2f}s, path=source_summary",
+                flush=True,
+            )
             return RAGServiceResponse(
                 mode="rag",
                 question=question,
@@ -645,6 +705,7 @@ QUESTION UTILISATEUR :
             conversation_history=conversation_history,
         )
         try:
+            generation_started_at = time.perf_counter()
             raw_answer = str(self.llm.invoke(prompt)).strip()
         except Exception as exc:
             raise RuntimeError(
@@ -652,6 +713,12 @@ QUESTION UTILISATEUR :
                 "restart Ollama or lower OLLAMA_NUM_CTX/OLLAMA_NUM_GPU."
             ) from exc
         answer = self._repair_answer_format(raw_answer)
+        print(
+            f"RAG answer timings: retrieval={retrieved_at - started_at:.2f}s, "
+            f"generation={time.perf_counter() - generation_started_at:.2f}s, "
+            f"total={time.perf_counter() - started_at:.2f}s, path=llm",
+            flush=True,
+        )
 
         return RAGServiceResponse(
             mode="rag",

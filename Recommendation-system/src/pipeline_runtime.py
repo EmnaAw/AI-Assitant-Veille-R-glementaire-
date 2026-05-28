@@ -433,9 +433,10 @@ class LegalRecommendationPipeline:
                 best=conflicting_matches[0],
             )
 
+        retrieval_top_k = min(20, max(top_k * 4, 12))
         candidates = self.retriever.search(
             query=normalized_query,
-            top_k=top_k,
+            top_k=retrieval_top_k,
             query_gap=query_gap,
         )
 

@@ -10,13 +10,19 @@ from langchain_chroma import Chroma
 from langchain_ollama import OllamaLLM
 from database import hybrid_search, build_bm25_index
 
-DB_DIR = "./db_vigogne_bge_m3"
-EMB_MODEL = "BAAI/bge-m3"
-LLM_MODEL = "vig3:latest"
+DB_DIR = os.getenv("RAG_DB_DIR", "./db_vigogne_bge_m3")
+EMB_MODEL = os.getenv("RAG_EMBEDDING_MODEL", "BAAI/bge-m3")
+LLM_MODEL = os.getenv("RAG_LLM_MODEL", os.getenv("OLLAMA_MODEL", "vig3:latest"))
 MAX_GENERATION_CHUNK_CHARS = int(os.getenv("MAX_GENERATION_CHUNK_CHARS", "1400"))
 OLLAMA_NUM_CTX = int(os.getenv("OLLAMA_NUM_CTX", "2048"))
 OLLAMA_NUM_PREDICT = int(os.getenv("OLLAMA_NUM_PREDICT", "384"))
 OLLAMA_NUM_GPU = int(os.getenv("OLLAMA_NUM_GPU", "24"))
+OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
+EMBEDDING_LOCAL_FILES_ONLY = os.getenv("EMBEDDING_LOCAL_FILES_ONLY", "1").lower() in {
+    "1",
+    "true",
+    "yes",
+}
 
 APP_ID_MAP = {
     "QUALITÉ": "1",
@@ -466,7 +472,7 @@ def run_rag():
     print(f"--- Initializing: {LLM_MODEL} + BGE-M3 ---")
     emb = HuggingFaceEmbeddings(
         model_name=EMB_MODEL,
-        model_kwargs={"device": "cpu", "local_files_only": True},
+        model_kwargs={"device": "cpu", "local_files_only": EMBEDDING_LOCAL_FILES_ONLY},
         encode_kwargs={"normalize_embeddings": True},
     )
 
@@ -477,7 +483,7 @@ def run_rag():
     db = Chroma(persist_directory=DB_DIR, embedding_function=emb)
     llm = OllamaLLM(
         model=LLM_MODEL,
-        base_url="http://localhost:11434",
+        base_url=OLLAMA_BASE_URL,
         temperature=0,
         num_ctx=OLLAMA_NUM_CTX,
         num_predict=OLLAMA_NUM_PREDICT,

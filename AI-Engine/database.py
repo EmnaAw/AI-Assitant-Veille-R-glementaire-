@@ -9,12 +9,20 @@ from langchain_core.documents import Document
 from sentence_transformers import CrossEncoder
 
 RERANKER_MODEL = "BAAI/bge-reranker-v2-m3"
+RAG_USE_CROSS_ENCODER_RERANKER = os.getenv("RAG_USE_CROSS_ENCODER_RERANKER", "0").lower() in {
+    "1",
+    "true",
+    "yes",
+}
 RERANKER = None
 RERANKER_LOAD_ERROR = None
 
 
 def get_reranker():
     global RERANKER, RERANKER_LOAD_ERROR
+
+    if not RAG_USE_CROSS_ENCODER_RERANKER:
+        return None
 
     if RERANKER is not None or RERANKER_LOAD_ERROR is not None:
         return RERANKER

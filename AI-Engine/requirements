@@ -1,7 +1,14 @@
 langchain
 langchain-community
 langchain-huggingface
+langchain-chroma
+langchain-ollama
 chromadb
-sentence-transformers
+numpy>=1.26.0,<2.0
+sentence-transformers==3.3.1
+transformers==4.46.3
 requests
 python-dotenv
+fastapi
+uvicorn[standard]
+pydantic

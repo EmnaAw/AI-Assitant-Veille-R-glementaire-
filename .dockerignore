@@ -1,0 +1,23 @@
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/.pytest_cache/
+**/venv/
+**/.venv/
+**/logs/
+**/*.log
+
+AI-Engine/combinationstests/
+AI-Engine/Embedding-tests/
+AI-Engine/LLmTests/
+AI-Engine/RAG Pipeline.ipynb
+AI-Engine/db/
+AI-Engine/db_french_specialist/
+AI-Engine/db_labse/
+AI-Engine/db_minilm/
+AI-Engine/db_multilingual_e5/
+AI-Engine/db_vigogne_multilingual_e5/
+
+Recommendation-system/pytest-cache-files-*/
+Recommendation-system/RecommendationSystem/chroma_store_corrupt_backup_*/
+Recommendation-system/data/evaluation_runs/
