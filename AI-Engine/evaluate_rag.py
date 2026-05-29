@@ -7,10 +7,16 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from langchain_ollama import OllamaLLM
 from database import hybrid_search, build_bm25_index
+from config import (
+    OLLAMA_BASE_URL,
+    OLLAMA_TIMEOUT as OLLAMA_HTTP_TIMEOUT,
+    RAG_LLM_MODEL,
+    ollama_client_kwargs,
+)
 
-DB_DIR = "./db_vigogne_bge_m3"
-EMB_MODEL = "BAAI/bge-m3"
-LLM_MODEL = "vig3:latest"
+DB_DIR = os.getenv("RAG_DB_DIR", "./db_vigogne_bge_m3")
+EMB_MODEL = os.getenv("RAG_EMBEDDING_MODEL", "BAAI/bge-m3")
+LLM_MODEL = RAG_LLM_MODEL
 DELAY = 0.5
 
 APP_ID_MAP = {
@@ -406,8 +412,9 @@ class LocalRAG:
         self.db = Chroma(persist_directory=DB_DIR, embedding_function=self.emb)
         self.llm = OllamaLLM(
             model=LLM_MODEL,
-            base_url="http://localhost:11434",
+            base_url=OLLAMA_BASE_URL,
             temperature=0,
+            sync_client_kwargs=ollama_client_kwargs(timeout=OLLAMA_HTTP_TIMEOUT),
         )
 
         print("⚙ Building BM25 index (one-time)...")

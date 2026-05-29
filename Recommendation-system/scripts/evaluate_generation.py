@@ -91,11 +91,20 @@ def _candidate_texts(result: Any, max_count: int = 3) -> list[str]:
     return texts[:max_count]
 
 
-def _check_ollama_ready(base_url: str, model: str, timeout: float) -> None:
+def _check_ollama_ready(
+    base_url: str,
+    model: str,
+    timeout: float,
+    headers: dict[str, str] | None = None,
+) -> None:
     import requests
 
     try:
-        response = requests.get(f"{base_url}/api/tags", timeout=timeout)
+        response = requests.get(
+            f"{base_url.rstrip('/')}/api/tags",
+            timeout=timeout,
+            headers=headers or {},
+        )
         response.raise_for_status()
     except requests.RequestException as exc:
         raise RuntimeError(
@@ -118,7 +127,7 @@ def _check_ollama_ready(base_url: str, model: str, timeout: float) -> None:
 
 
 def evaluate(args: argparse.Namespace) -> tuple[pd.DataFrame, pd.DataFrame]:
-    from src.config import OLLAMA_BASE_URL, OLLAMA_MODEL
+    from src.config import OLLAMA_BASE_URL, OLLAMA_MODEL, ollama_headers
     from src.generator import Generator
     from src.pipeline_runtime import LegalRecommendationPipeline
     from src.truth_lookup import TruthLookup
@@ -144,6 +153,7 @@ def evaluate(args: argparse.Namespace) -> tuple[pd.DataFrame, pd.DataFrame]:
             base_url=OLLAMA_BASE_URL,
             model=OLLAMA_MODEL,
             timeout=args.ollama_check_timeout,
+            headers=ollama_headers(),
         )
 
     lookup = TruthLookup(args.data_path)

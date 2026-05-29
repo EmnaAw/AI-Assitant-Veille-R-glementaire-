@@ -11,6 +11,7 @@ from .config import (
     OLLAMA_NUM_CTX,
     OLLAMA_NUM_PREDICT,
     OLLAMA_TIMEOUT,
+    ollama_headers,
 )
 from .prompt_builder import (
     build_french_action_prompt,
@@ -464,7 +465,7 @@ class Generator:
         raise ValueError(f"Unsupported generation backend: {self.backend}")
 
     def _generate_with_ollama(self, prompt: str) -> str:
-        url = f"{OLLAMA_BASE_URL}/api/generate"
+        url = f"{OLLAMA_BASE_URL.rstrip('/')}/api/generate"
         payload = {
             "model": OLLAMA_MODEL,
             "prompt": prompt,
@@ -478,7 +479,12 @@ class Generator:
         }
 
         try:
-            response = self.session.post(url, json=payload, timeout=OLLAMA_TIMEOUT)
+            response = self.session.post(
+                url,
+                json=payload,
+                timeout=OLLAMA_TIMEOUT,
+                headers=ollama_headers(),
+            )
         except requests.RequestException as exc:
             raise RuntimeError(f"Failed to connect to Ollama at {url}: {exc}") from exc
 

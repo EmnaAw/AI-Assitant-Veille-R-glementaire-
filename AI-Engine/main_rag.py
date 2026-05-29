@@ -9,15 +9,20 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from langchain_ollama import OllamaLLM
 from database import hybrid_search, build_bm25_index
+from config import (
+    OLLAMA_BASE_URL,
+    OLLAMA_TIMEOUT as OLLAMA_HTTP_TIMEOUT,
+    RAG_LLM_MODEL,
+    ollama_client_kwargs,
+)
 
 DB_DIR = os.getenv("RAG_DB_DIR", "./db_vigogne_bge_m3")
 EMB_MODEL = os.getenv("RAG_EMBEDDING_MODEL", "BAAI/bge-m3")
-LLM_MODEL = os.getenv("RAG_LLM_MODEL", os.getenv("OLLAMA_MODEL", "vig3:latest"))
+LLM_MODEL = RAG_LLM_MODEL
 MAX_GENERATION_CHUNK_CHARS = int(os.getenv("MAX_GENERATION_CHUNK_CHARS", "1400"))
 OLLAMA_NUM_CTX = int(os.getenv("OLLAMA_NUM_CTX", "2048"))
 OLLAMA_NUM_PREDICT = int(os.getenv("OLLAMA_NUM_PREDICT", "384"))
 OLLAMA_NUM_GPU = int(os.getenv("OLLAMA_NUM_GPU", "24"))
-OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 EMBEDDING_LOCAL_FILES_ONLY = os.getenv("EMBEDDING_LOCAL_FILES_ONLY", "1").lower() in {
     "1",
     "true",
@@ -488,6 +493,7 @@ def run_rag():
         num_ctx=OLLAMA_NUM_CTX,
         num_predict=OLLAMA_NUM_PREDICT,
         num_gpu=OLLAMA_NUM_GPU,
+        sync_client_kwargs=ollama_client_kwargs(timeout=OLLAMA_HTTP_TIMEOUT),
     )
 
     print("⚙ Building BM25 index (one-time)...")

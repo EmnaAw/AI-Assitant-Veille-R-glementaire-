@@ -4,7 +4,7 @@ import requests
 import typer
 from rich import print
 
-from .config import DATA_PATH, OLLAMA_BASE_URL, OLLAMA_MODEL, TOP_K
+from .config import DATA_PATH, OLLAMA_BASE_URL, OLLAMA_MODEL, TOP_K, ollama_headers
 from .indexer import build_index
 from .pipeline_runtime import LegalRecommendationPipeline
 from .retriever import Retriever
@@ -37,7 +37,11 @@ def health():
         "models": [],
     }
     try:
-        response = requests.get(f"{OLLAMA_BASE_URL}/api/tags", timeout=5)
+        response = requests.get(
+            f"{OLLAMA_BASE_URL.rstrip('/')}/api/tags",
+            timeout=5,
+            headers=ollama_headers(),
+        )
         response.raise_for_status()
         payload = response.json()
         models = [item.get("name") for item in payload.get("models", []) if item.get("name")]

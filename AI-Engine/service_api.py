@@ -347,6 +347,11 @@ def health() -> dict[str, Any]:
     }
 
 
+@app.get("/health")
+def health_alias() -> dict[str, Any]:
+    return health()
+
+
 @app.post("/ai/rag/respond")
 def rag_respond(request: AIRequest) -> dict[str, Any]:
     try:
@@ -360,6 +365,11 @@ def rag_respond(request: AIRequest) -> dict[str, Any]:
         raise HTTPException(status_code=500, detail=f"RAG service failed: {exc}") from exc
 
     return result.model_dump()
+
+
+@app.post("/rag")
+def rag_respond_alias(request: AIRequest) -> dict[str, Any]:
+    return rag_respond(request)
 
 
 @app.post("/ai/recommendation/respond")
@@ -377,6 +387,11 @@ def recommendation_respond(request: AIRequest) -> dict[str, Any]:
     payload = result.model_dump()
     payload["mode"] = "recommendation"
     return payload
+
+
+@app.post("/recommendation")
+def recommendation_respond_alias(request: AIRequest) -> dict[str, Any]:
+    return recommendation_respond(request)
 
 
 @app.post("/ai/respond")

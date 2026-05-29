@@ -2,6 +2,12 @@ import requests
 import os
 import json
 from database import get_vector_db, hybrid_search
+from config import (
+    OLLAMA_BASE_URL,
+    OLLAMA_TIMEOUT,
+    RAG_LLM_MODEL,
+    ollama_headers,
+)
 
 def ask_mistral(query, context_docs):
     if not context_docs:
@@ -24,8 +30,8 @@ def ask_mistral(query, context_docs):
         source_label = ", ".join(sources)
         formatted_context += f"[Sources: {source_label}]\n{content}\n\n"
 
-    # --- STEP 2: CONFIGURATION OLLAMA LOCAL ---
-    url = "http://localhost:11434/api/generate"
+    # --- STEP 2: CONFIGURATION OLLAMA ---
+    url = f"{OLLAMA_BASE_URL.rstrip('/')}/api/generate"
     
     prompt = f"""[INST] Tu es un Expert Juridique Tunisien. 
 OBJECTIF : Fournir UNE SEULE réponse synthétique, précise et très courte.
@@ -44,7 +50,7 @@ QUESTION :
 
     # --- STEP 3: APPEL API OLLAMA ---
     payload = {
-        "model": "mistral",
+        "model": RAG_LLM_MODEL,
         "prompt": prompt,
         "stream": False,  # Important pour recevoir la réponse d'un bloc
         "options": {
@@ -53,7 +59,12 @@ QUESTION :
     }
 
     try:
-        response = requests.post(url, json=payload, timeout=30)
+        response = requests.post(
+            url,
+            json=payload,
+            timeout=OLLAMA_TIMEOUT,
+            headers=ollama_headers(),
+        )
         response.raise_for_status()
         # Ollama renvoie la réponse dans le champ 'response'
         return response.json()['response']

@@ -14,6 +14,11 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_ollama import OllamaLLM
 
 from database import build_bm25_index, hybrid_search
+from config import (
+    OLLAMA_TIMEOUT as OLLAMA_HTTP_TIMEOUT,
+    ollama_client_kwargs,
+    ollama_headers,
+)
 from main_rag import (
     DB_DIR,
     EMB_MODEL,
@@ -235,7 +240,7 @@ class RAGService:
             num_predict=OLLAMA_NUM_PREDICT,
             num_gpu=OLLAMA_NUM_GPU,
             keep_alive="10m",
-            sync_client_kwargs={"timeout": 45},
+            sync_client_kwargs=ollama_client_kwargs(timeout=OLLAMA_HTTP_TIMEOUT),
         )
         llm_ready_at = time.perf_counter()
         self.bm25 = build_bm25_index(self.db)
@@ -260,6 +265,7 @@ class RAGService:
             "embedding_model": self.embedding_model,
             "llm_model": self.llm_model,
             "ollama_base_url": self.ollama_base_url,
+            "ollama_auth_configured": bool(ollama_headers()),
             "initialized": initialized,
             "healthy": initialized,
         }
