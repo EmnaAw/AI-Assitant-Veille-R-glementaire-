@@ -59,7 +59,7 @@ MAX_CHUNK_CHARS = 1400
 MAX_LEGAL_LINES = 3
 OLLAMA_NUM_CTX = int(os.getenv("OLLAMA_NUM_CTX", "2048"))
 OLLAMA_NUM_PREDICT = int(os.getenv("OLLAMA_NUM_PREDICT", "384"))
-OLLAMA_NUM_GPU = int(os.getenv("OLLAMA_NUM_GPU", "24"))
+OLLAMA_NUM_GPU = int(os.getenv("OLLAMA_NUM_GPU", "0"))
 SUMMARY_STOPWORDS = {
     "qui", "que", "quoi", "quel", "quelle", "quels", "quelles", "est", "sont",
     "dans", "avec", "pour", "par", "sur", "une", "des", "les", "aux", "du",

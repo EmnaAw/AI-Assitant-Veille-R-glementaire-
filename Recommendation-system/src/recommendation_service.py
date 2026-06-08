@@ -76,6 +76,13 @@ class RecommendationService:
             lookup=lookup,
             generator=generator,
         )
+        self.initialized = False
+        self.generator_warmed = False
+
+    def initialize(self) -> None:
+        self.pipeline.retriever.health()
+        self.generator_warmed = self.pipeline.generator.warmup()
+        self.initialized = True
 
     def health(self) -> dict[str, Any]:
         retriever_health = self.pipeline.retriever.health()
@@ -83,6 +90,9 @@ class RecommendationService:
             "mode": "recommendation",
             "dataset_path": str(DATA_PATH),
             "score_threshold": self.pipeline.score_threshold,
+            "initialized": self.initialized,
+            "generator_backend": self.pipeline.generator.backend,
+            "generator_warmed": self.generator_warmed,
             "healthy": True,
             "retriever": retriever_health,
         }

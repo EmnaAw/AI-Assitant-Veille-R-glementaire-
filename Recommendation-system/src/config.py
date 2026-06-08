@@ -3,9 +3,10 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-load_dotenv()
-
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
+for env_path in (PROJECT_ROOT / ".env", PROJECT_ROOT.parent / ".env", PROJECT_ROOT.parent.parent / ".env"):
+    load_dotenv(env_path)
+
 DATA_DIR = PROJECT_ROOT / "data"
 DATASET_FILENAME = "final_dedup_by_actionplan_recovered.xlsx"
 DATA_PATH = DATA_DIR / DATASET_FILENAME
@@ -52,6 +53,7 @@ OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "vigogne-llama-3:latest")
 OLLAMA_TIMEOUT = int(os.getenv("OLLAMA_TIMEOUT", "120"))
 OLLAMA_NUM_CTX = int(os.getenv("OLLAMA_NUM_CTX", "1024"))
 OLLAMA_NUM_PREDICT = int(os.getenv("OLLAMA_NUM_PREDICT", "160"))
+OLLAMA_NUM_GPU = int(os.getenv("OLLAMA_NUM_GPU", "0"))
 OLLAMA_KEEP_ALIVE = os.getenv("OLLAMA_KEEP_ALIVE", "15m")
 
 SYSTEM_PROMPT_FR = """Tu es un assistant IA expert en droit tunisien.

@@ -1,4 +1,8 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 os.environ.setdefault("HF_HUB_OFFLINE", "1")
 os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
 
@@ -16,7 +20,7 @@ LLM_MODEL = os.getenv("RAG_LLM_MODEL", os.getenv("OLLAMA_MODEL", "vig3:latest"))
 MAX_GENERATION_CHUNK_CHARS = int(os.getenv("MAX_GENERATION_CHUNK_CHARS", "1400"))
 OLLAMA_NUM_CTX = int(os.getenv("OLLAMA_NUM_CTX", "2048"))
 OLLAMA_NUM_PREDICT = int(os.getenv("OLLAMA_NUM_PREDICT", "384"))
-OLLAMA_NUM_GPU = int(os.getenv("OLLAMA_NUM_GPU", "24"))
+OLLAMA_NUM_GPU = int(os.getenv("OLLAMA_NUM_GPU", "0"))
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 EMBEDDING_LOCAL_FILES_ONLY = os.getenv("EMBEDDING_LOCAL_FILES_ONLY", "1").lower() in {
     "1",

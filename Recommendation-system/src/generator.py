@@ -9,6 +9,7 @@ from .config import (
     OLLAMA_KEEP_ALIVE,
     OLLAMA_MODEL,
     OLLAMA_NUM_CTX,
+    OLLAMA_NUM_GPU,
     OLLAMA_NUM_PREDICT,
     OLLAMA_TIMEOUT,
 )
@@ -83,6 +84,31 @@ class Generator:
         self._action_cache: dict[str, str] = {}
         self._explanation_cache: dict[tuple[str, str, str], str] = {}
         self._advisory_cache: dict[tuple[str, str, tuple[str, ...]], str] = {}
+
+    def warmup(self) -> bool:
+        if self.backend != "ollama":
+            return False
+
+        url = f"{OLLAMA_BASE_URL}/api/generate"
+        payload = {
+            "model": OLLAMA_MODEL,
+            "prompt": "Reponds uniquement: OK",
+            "stream": False,
+            "keep_alive": OLLAMA_KEEP_ALIVE,
+            "options": {
+                "temperature": 0,
+                "num_ctx": min(OLLAMA_NUM_CTX, 512),
+                "num_predict": 1,
+                "num_gpu": OLLAMA_NUM_GPU,
+            },
+        }
+        response = self.session.post(url, json=payload, timeout=min(OLLAMA_TIMEOUT, 45))
+        if response.status_code != 200:
+            raise RuntimeError(
+                f"Ollama warmup failed. Status code: {response.status_code}. "
+                f"Response body: {response.text}"
+            )
+        return True
 
     def _clean_response(self, response: str) -> str:
         cleaned = clean_client_text(response)
@@ -473,6 +499,7 @@ class Generator:
             "options": {
                 "temperature": 0.2,
                 "num_ctx": OLLAMA_NUM_CTX,
+                "num_gpu": OLLAMA_NUM_GPU,
                 "num_predict": OLLAMA_NUM_PREDICT,
             },
         }

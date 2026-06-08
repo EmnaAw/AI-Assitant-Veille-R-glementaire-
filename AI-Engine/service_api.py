@@ -13,6 +13,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
+from dotenv import load_dotenv
 
 for stream_name in ("stdout", "stderr"):
     stream = getattr(sys, stream_name, None)
@@ -22,6 +23,9 @@ for stream_name in ("stdout", "stderr"):
 CURRENT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = CURRENT_DIR.parent
 RECOMMENDATION_ROOT = PROJECT_ROOT / "Recommendation-system"
+
+for env_path in (CURRENT_DIR / ".env", PROJECT_ROOT / ".env", PROJECT_ROOT.parent / ".env"):
+    load_dotenv(env_path)
 
 if str(CURRENT_DIR) not in sys.path:
     sys.path.insert(0, str(CURRENT_DIR))
@@ -75,7 +79,7 @@ INSTANT_REPLIES = {
     "merci": "Avec plaisir. Je reste disponible si vous avez une autre question.",
     "merci beaucoup": "Avec plaisir. Je reste disponible si vous avez une autre question.",
 }
-AI_PRELOAD_SERVICES = os.getenv("AI_PRELOAD_SERVICES", "0").lower() in {"1", "true", "yes"}
+AI_PRELOAD_SERVICES = os.getenv("AI_PRELOAD_SERVICES", "1").lower() in {"1", "true", "yes"}
 PROMPT_STOP_WORDS = {
     "the", "and", "for", "are", "you", "please", "tell", "about", "what", "which", "how",
     "est", "sont", "une", "des", "les", "aux", "avec", "pour", "dans", "sur", "par",
@@ -99,6 +103,7 @@ async def validation_exception_handler(
 rag_service = None
 recommendation_service = None
 rag_startup_error: str | None = None
+recommendation_startup_error: str | None = None
 
 
 def get_rag_service():
@@ -290,19 +295,26 @@ def _meaningful_tokens(normalized: str) -> set[str]:
 
 @app.on_event("startup")
 def startup_event() -> None:
-    logger.info("AI Engine API started. RAG and recommendation services load lazily.")
+    logger.info("AI Engine API started. Preload enabled: %s", AI_PRELOAD_SERVICES)
     if not AI_PRELOAD_SERVICES:
         return
 
-    global rag_startup_error
+    global rag_startup_error, recommendation_startup_error
     try:
-        get_recommendation_service()
+        service = get_recommendation_service()
+        service.initialize()
+        logger.info("Recommendation service preloaded successfully.")
+    except Exception as exc:
+        recommendation_startup_error = str(exc)
+        logger.exception("Recommendation preload failed; service will retry lazily on request.")
+
+    try:
         service = get_rag_service()
         service.initialize()
-        logger.info("AI Engine services preloaded successfully.")
+        logger.info("RAG service preloaded successfully.")
     except Exception as exc:
         rag_startup_error = str(exc)
-        logger.exception("AI Engine preload failed; service will retry lazily on request.")
+        logger.exception("RAG preload failed; service will retry lazily on request.")
 
 
 @app.get("/ai/health")
@@ -316,6 +328,9 @@ def health() -> dict[str, Any]:
     else:
         try:
             recommendation_health = recommendation_service.health()
+            if recommendation_startup_error:
+                recommendation_health["healthy"] = False
+                recommendation_health["startup_error"] = recommendation_startup_error
         except Exception as exc:
             recommendation_health = {
                 "mode": "recommendation",
